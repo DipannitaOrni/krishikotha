@@ -1,0 +1,128 @@
+Diseases of Jute
+Fungal diseases
+Anthracnose Colletotrichum corchori
+Stem rot Macrophomina phaseolina
+Black band Botryodiplodia theobromae
+Leaf spot Cercospora corchori
+Target spot Corynespora cassiicola
+Bacterial diseases
+Bacterial leaf blight Xanthomonas campestris pv. capsularii
+Nemic diseases
+Root-knot Meloidogyne incognita
+Viral diseases
+Mosaic Jute mosaic virus
+Stem rot
+Causal Organism: Macrophomina phaseolina
+Symptoms:
+This disease appear from seedling to maturity. In seedling stage blackish streak developed from the
+hypocotyl. In moist condition damping off occur at the seedling stage. In mature plants leaves are
+infected buff to black color lesions are developed at the apex, in margin, midrib and also petiole.
+After progress of the disease that dark brown to black lesions developed at the nodal region. This
+lesion spread along the stem. Cortex become shredded and exposed the fibers. The later stage of
+disease, the plant sheds leaves, stem rots and ultimately die. Then the capsules and seeds are also
+infected. Numerous black sclerotia and frequently subcarbonaceous pycnidia developed on diseased
+parts. Only dark black stem remains in the field.
+
+Disease cycle:
+
+Disease cycle of stem rot of jute
+The pathogen perpetuates on stubbles and in soil in the jute fields in its sclerotia form. It also
+harbours on the jute seeds under the seed coat and within the cotyledons. Where rotations are
+practiced, other crops like linseed, sesame or cowpea may form the collateral hosts. The pathogen
+has also been found to survive on a common weed Cyperus distans.
+But primary infection is chiefly due to the seed borne inoculum than any other source. There are
+two phases of disease development. During the first phase the pathogen kills a large number of
+seedlings and young plants in the first two months. During the second phase, which starts after the
+plants are four to five months old, there are no deaths, but quality of the fiber is ruined owing to the
+formation of cankers and shredding.
+Due to primary infection, symptoms appear in the seedlings on the cotyledonary leaves and the
+hypocotyl within a fortnight after sowing leading to the development of pycnidia. Conidia released
+from the pycnidia of the diseased seedlings cause secondary infection on the leaves in the vicinity
+of the seedlings where primary infection has been established. Both rain and air play a great role
+for dispersal of conidia. The conidia readily infect the leaves and the leaf infection spreads to the
+node through the petiole. In an infected stem, the pathogen grows in the epidermis and cortex, often
+invading the phloem parenchyma and the wide rays between the phloem wedges. It is also found in
+the central woody portion, the hyphae penetrating even the wood fibers.
+Ultimately girdling of the stem occurs causing rot of the stem which leads to either shredding,
+canker or wilting. Usually the secondary infection is four times the primary infection. Prolonged
+warm and humid conditions favour disease development leading to the severe outbreak of the stem-
+rot. Initially abundant leaf infection is visible during and after heavy rains which gradually leads to
+the spread of the disease. The most critical period for the crop is first eight weeks of its growth, for
+it is during this period that the disease is serious.
+Again if the weather during this period is comparatively dry, the incidence of the disease is less.
+The interval between the appearance of the stem-rot and the death of the plant ranges between one
+and twenty weeks. Where the top of the plant is attacked the death is quicker. Attacked plants often
+survive by means of callus formation. Root-rot usually occurs sporadically late in the season, but
+also appears early in the season when high temperature prevails.
+
+Control measures
+(i) Use clean seeds from localities where disease incidence has not been reported.
+(ii) Seeds should be thoroughly dried and before storage should be treated with Organomercuric
+compounds.
+(iii) Betterment of cultural practice in the following manner
+(a) Improvement of soil pH with lime
+(b) Application of potash between 50 to 100 Kg/ha in soil
+(c) Good drainage and improvement of porosity (in clay soil) with organic matter
+(d) Proper spacing 30 cm. x 7 cm., weeding, and thinning
+(e) Crop rotation jute with paddy.
+(iv) Spraying copper oxychloride (50% Cu) at 0.75 concentration at first leaf infection produces
+fruitful results. Leaf infection can be reduced spraying 0.2% Lime Sulphur and Bordeaux mixture
+(5:5:40) under field condition.
+(v) Early harvesting reduces loss of fiber.
+(vi) Since the fungus can survive on linseed, sesame and cowpea, these plants should not be grown
+in jute fields.
+(vii) Jute field weed Cyperus distans should be eradicated to reduce the source of inoculum.
+(viii) Root-rot can be effectively controlled by the use of Brassicol
+Black band
+Causal Organism: Botryodiplodia theobromae
+Symptoms:
+A dense black band develops around the stem of the mature plant at about 2-3 feet above the ground
+level. The bark of the stem in some places splits open longitudinally with exposed, brownish dry
+fibers at the later stages of disease development and die. Large number of minute black pycnidia is
+formed on the affected blackened area of the stem. On rubbing the diseased stem, fingers become
+black due to dark pycnidiospores.
+Control measures
+
+
+Anthracnose
+Causal Organism: Colletotrichum corchori
+Symptoms:
+The disease first appears as yellowish-brown, depressed water soaked spots on the stem, which
+soon turn into irregular lesions and may become dark brown and finally black. In most cases the
+lesions are elongated having tapering ends and wide at the middle giving spindle or eye shape
+appearance. The lesion develops cracks in the center and the fibers are exposed. Sometimes
+several spots may coalesce and produce large cankerous lesions and in many cases they girdle the
+stem. The fungus also infect the vascular bundle of the plants. The black dot like acervuli are seen
+on the surface of the affected area. Affected seedlings die and mature plants may wilt or survive to
+produce poor quality pods and seeds. The capsule and seeds are also infected.
+Disease cycle:
+The planting materials may harbour the fungus and thus perpetuate the disease from season to
+season. The fungus may also persist in the soil if diseased stubble and dry leaves left in the field
+after harvest. The primary infection, however, appears to be mainly from infected seeds. Secondary
+infection takes place by the conidia produced on the affected stems. Secondary spread in the field
+may be through irrigation water, cultivation tools and implements and wind-borne inocula. The
+fungus also survives on collateral hosts Sorghum vulgare, S. halepense, and Saccharum
+spontaneum.
+Control measures:
+
+• Crop rotation with rice, wheat etc.
+
+Dieback: Mature plants are susceptible to the dieback disease, caused by Diplodia corchori. The
+apex of the main stem or branches begins to wither and dry up progressively from tip downwards
+turning brown to black. Ultimately, the plant withers, leaves drop off. Lack of requisite moisture in
+soil and low fertility favour the disease. It is most prevalent in the red soil areas. Spraying Copper
+
+recommended for control.
+Soft rot: The disease is caused by Sclerotium rolfsii. The fungus is soil borne. The disease initiates
+infection in late July onwards when the plants become older. Soft, brown, wet patches appear on
+the basal region of the plant above the ground level. Epidermal layer peels off exposing the fibers
+turning rusty brown. Eventually plant breaks off from the point of infection. Concentric ring of light
+and dark brown bands on the stem indicate the presence of soft rot. The fungus thrives on fallen
+jute leaves or plant of previous harvest. Deep ploughing and clean cultivation along with spraying
+Copper oxychloride (50 per cent Cu) helps to control the disease.
+Nematodes (Meloidogyne incognita) – The infestation is more in sandy loam and loamy soil where
+repeated jute cultivation is practiced. Nematodes affected the root and as a result gall are formed.
+In association with soil fungi, they affect the plants. As a result leaves first get yellow and gradually
+the plants wither away. Heavy gall formation is early stages of growth leads to arrest of growth of
+the crop. During crop season the infestation starts. Applying Carbofuran 3 kg a. i./ha or Aldicarb
+3kg a.i./ha may control the pest.
