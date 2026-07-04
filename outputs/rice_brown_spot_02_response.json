@@ -1,0 +1,12 @@
+{
+  "image": "rice_brown_spot_02.jpg",
+  "response_time_sec": 3.15,
+  "parsed": {
+    "crop": "dhan",
+    "diagnosis": "ব্লাস্ট রোগ",
+    "confidence": "high",
+    "advice_bangla": "ক্ষেতে পানি সঠিকভাবে নিষ্কাশন নিশ্চিত করুন ও আজকের আবহাওয়া অনুযায়ী ফাঙ্গিসাইড প্রয়োগ করুন।",
+    "reasoning_english": "The yellowing and browning of leaves along with lesions are typical signs of blast disease in rice plants."
+  },
+  "raw_text": "{\n  \"crop\": \"dhan\",\n  \"diagnosis\": \"ব্লাস্ট রোগ\",\n  \"confidence\": \"high\",\n  \"advice_bangla\": \"ক্ষেতে পানি সঠিকভাবে নিষ্কাশন নিশ্চিত করুন ও আজকের আবহাওয়া অনুযায়ী ফাঙ্গিসাইড প্রয়োগ করুন।\",\n  \"reasoning_english\": \"The yellowing and browning of leaves along with lesions are typical signs of blast disease in rice plants.\"\n}"
+}

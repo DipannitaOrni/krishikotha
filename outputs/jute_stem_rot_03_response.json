@@ -1,0 +1,12 @@
+{
+  "image": "jute_stem_rot_03.jpg",
+  "response_time_sec": 3.6,
+  "parsed": {
+    "crop": "pat (jute)",
+    "diagnosis": "কালো পচা রোগ",
+    "confidence": "high",
+    "advice_bangla": "ক্ষতিগ্রস্থ অংশগুলো কেটে ফেলে দিন এবং স্প্রে করতে ছত্রাকনাশক ব্যবহার করুন।",
+    "reasoning_english": "The dark, elongated lesions on the stems are typical of stem rot disease."
+  },
+  "raw_text": "{\n  \"crop\": \"pat (jute)\",\n  \"diagnosis\": \"কালো পচা রোগ\",\n  \"confidence\": \"high\",\n  \"advice_bangla\": \"ক্ষতিগ্রস্থ অংশগুলো কেটে ফেলে দিন এবং স্প্রে করতে ছত্রাকনাশক ব্যবহার করুন।\",\n  \"reasoning_english\": \"The dark, elongated lesions on the stems are typical of stem rot disease.\"\n}"
+}

@@ -1,0 +1,12 @@
+{
+  "image": "rice_brown_spot_03.jpg",
+  "response_time_sec": 2.84,
+  "parsed": {
+    "crop": "dhan",
+    "diagnosis": "ব্রাউন স্পট রোগ",
+    "confidence": "high",
+    "advice_bangla": "আগামীবার বীজ শোধন করার আগে ভালোভাবে পরিষ্কার করুন। অনুমোদিত ছত্রাকনাশক ব্যবহার করতে পারেন।",
+    "reasoning_english": "The brown spots on the rice husks are indicative of the brown spot disease, which is common in rice crops."
+  },
+  "raw_text": "{\n  \"crop\": \"dhan\",\n  \"diagnosis\": \"ব্রাউন স্পট রোগ\",\n  \"confidence\": \"high\",\n  \"advice_bangla\": \"আগামীবার বীজ শোধন করার আগে ভালোভাবে পরিষ্কার করুন। অনুমোদিত ছত্রাকনাশক ব্যবহার করতে পারেন।\",\n  \"reasoning_english\": \"The brown spots on the rice husks are indicative of the brown spot disease, which is common in rice crops.\"\n}"
+}

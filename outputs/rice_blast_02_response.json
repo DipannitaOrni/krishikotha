@@ -1,0 +1,12 @@
+{
+  "image": "rice_blast_02.jpg",
+  "response_time_sec": 2.14,
+  "parsed": {
+    "crop": "dhan (rice)",
+    "diagnosis": "ব্লাস্ট রোগ",
+    "confidence": "high",
+    "advice_bangla": "দ্রুতভাবে এই ক্ষেতে ফাংগিসাইড ব্যবহার করুন। আক্রান্ত পাতা অপসারণ করুন।",
+    "reasoning_english": "The leaf shows characteristic spindle-shaped lesions with a gray center and dark margins, typical of rice blast disease."
+  },
+  "raw_text": "{\n  \"crop\": \"dhan (rice)\",\n  \"diagnosis\": \"ব্লাস্ট রোগ\",\n  \"confidence\": \"high\",\n  \"advice_bangla\": \"দ্রুতভাবে এই ক্ষেতে ফাংগিসাইড ব্যবহার করুন। আক্রান্ত পাতা অপসারণ করুন।\",\n  \"reasoning_english\": \"The leaf shows characteristic spindle-shaped lesions with a gray center and dark margins, typical of rice blast disease.\"\n}"
+}

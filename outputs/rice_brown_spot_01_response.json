@@ -1,0 +1,12 @@
+{
+  "image": "rice_brown_spot_01.jpg",
+  "response_time_sec": 2.97,
+  "parsed": {
+    "crop": "dhan",
+    "diagnosis": "পাতার দাগ রোগ",
+    "confidence": "high",
+    "advice_bangla": "ফসলের ক্ষতি কমানোর জন্য সঠিক ছত্রাকনাশক ব্যবহার করুন। পাতা এবং জমিতে পরিষ্কার রাখুন।",
+    "reasoning_english": "The brown and yellow leaf spots on rice seem characteristic of leaf spot disease."
+  },
+  "raw_text": "{\n  \"crop\": \"dhan\",\n  \"diagnosis\": \"পাতার দাগ রোগ\",\n  \"confidence\": \"high\",\n  \"advice_bangla\": \"ফসলের ক্ষতি কমানোর জন্য সঠিক ছত্রাকনাশক ব্যবহার করুন। পাতা এবং জমিতে পরিষ্কার রাখুন।\",\n  \"reasoning_english\": \"The brown and yellow leaf spots on rice seem characteristic of leaf spot disease.\"\n}"
+}

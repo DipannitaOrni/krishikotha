@@ -1,0 +1,12 @@
+{
+  "image": "potato_early_blight_03.jpg",
+  "response_time_sec": 2.36,
+  "parsed": {
+    "crop": "alu",
+    "diagnosis": "আলুর দাগের রোগ",
+    "confidence": "high",
+    "advice_bangla": "আক্রান্ত আলু আলাদা করে ফেলুন এবং ফসল গাছের নীচে পানি জমতে দেবেন না।",
+    "reasoning_english": "The potatoes show dark, irregular lesions, which are typical signs of potato blight or rot."
+  },
+  "raw_text": "{\n  \"crop\": \"alu\",\n  \"diagnosis\": \"আলুর দাগের রোগ\",\n  \"confidence\": \"high\",\n  \"advice_bangla\": \"আক্রান্ত আলু আলাদা করে ফেলুন এবং ফসল গাছের নীচে পানি জমতে দেবেন না।\",\n  \"reasoning_english\": \"The potatoes show dark, irregular lesions, which are typical signs of potato blight or rot.\"\n}"
+}

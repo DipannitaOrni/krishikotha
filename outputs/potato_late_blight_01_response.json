@@ -1,0 +1,12 @@
+{
+  "image": "potato_late_blight_01.jpg",
+  "response_time_sec": 2.66,
+  "parsed": {
+    "crop": "alu (potato)",
+    "diagnosis": "আলুর কালো পচা রোগ",
+    "confidence": "high",
+    "advice_bangla": "আক্রান্ত আলুগুলি অপসারণ করুন এবং সংরক্ষণ ব্যবস্থার উন্নতি করুন। পরবর্তী ফসলে প্রতিরোধক ছত্রাকনাশক ব্যবহার করতে পারেন।",
+    "reasoning_english": "The photo shows potatoes with black, rotten areas inside, which is characteristic of black rot disease."
+  },
+  "raw_text": "{\n  \"crop\": \"alu (potato)\",\n  \"diagnosis\": \"আলুর কালো পচা রোগ\",\n  \"confidence\": \"high\",\n  \"advice_bangla\": \"আক্রান্ত আলুগুলি অপসারণ করুন এবং সংরক্ষণ ব্যবস্থার উন্নতি করুন। পরবর্তী ফসলে প্রতিরোধক ছত্রাকনাশক ব্যবহার করতে পারেন।\",\n  \"reasoning_english\": \"The photo shows potatoes with black, rotten areas inside, which is characteristic of black rot disease.\"\n}"
+}

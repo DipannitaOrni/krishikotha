@@ -1,0 +1,12 @@
+{
+  "image": "rice_blast_01.jpg",
+  "response_time_sec": 3.57,
+  "parsed": {
+    "crop": "dhan",
+    "diagnosis": "ব্লাস্ট রোগ",
+    "confidence": "high",
+    "advice_bangla": "প্রতি লিটার পানিতে ২-৩ গ্রাম মনসেন্টো ব্যবহার করুন। আক্রান্ত পাতা অপসারণ করুন।",
+    "reasoning_english": "The presence of elliptical, spindle-shaped spots on the rice leaves is typical of blast disease."
+  },
+  "raw_text": "{\n  \"crop\": \"dhan\",\n  \"diagnosis\": \"ব্লাস্ট রোগ\",\n  \"confidence\": \"high\",\n  \"advice_bangla\": \"প্রতি লিটার পানিতে ২-৩ গ্রাম মনসেন্টো ব্যবহার করুন। আক্রান্ত পাতা অপসারণ করুন।\",\n  \"reasoning_english\": \"The presence of elliptical, spindle-shaped spots on the rice leaves is typical of blast disease.\"\n}"
+}

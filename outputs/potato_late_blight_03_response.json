@@ -1,0 +1,12 @@
+{
+  "image": "potato_late_blight_03.jpg",
+  "response_time_sec": 4.32,
+  "parsed": {
+    "crop": "alu (potato)",
+    "diagnosis": "ছত্রাকজনিত রোগ (লেট ব্লাইট)",
+    "confidence": "high",
+    "advice_bangla": "প্রাথমিক পর্যায়ে যদি ধরতে পারেন, ম্যানকজেব বা ক্লোরোথ্যালোনিল ভিত্তিক ছত্রাকনাশক স্প্রে করুন। ক্ষতিগ্রস্ত গাছের অংশগুলো কেটে সরিয়ে ফেলুন।",
+    "reasoning_english": "The photo shows potato leaves with dark brown patches and a yellow halo, typical of late blight (Phytophthora infestans)."
+  },
+  "raw_text": "{\n  \"crop\": \"alu (potato)\",\n  \"diagnosis\": \"ছত্রাকজনিত রোগ (লেট ব্লাইট)\",\n  \"confidence\": \"high\",\n  \"advice_bangla\": \"প্রাথমিক পর্যায়ে যদি ধরতে পারেন, ম্যানকজেব বা ক্লোরোথ্যালোনিল ভিত্তিক ছত্রাকনাশক স্প্রে করুন। ক্ষতিগ্রস্ত গাছের অংশগুলো কেটে সরিয়ে ফেলুন।\",\n  \"reasoning_english\": \"The photo shows potato leaves with dark brown patches and a yellow halo, typical of late blight (Phytophthora infestans).\"\n}"
+}

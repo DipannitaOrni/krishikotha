@@ -1,0 +1,12 @@
+{
+  "image": "jute_stem_rot_01.jpg",
+  "response_time_sec": 10.89,
+  "parsed": {
+    "crop": "unclear",
+    "diagnosis": "নিশ্চিত নই",
+    "confidence": "low",
+    "advice_bangla": "ক্রপের আরো পরিষ্কার ছবি নিন এবং অ্যাপের মাধ্যমে পুনরায় জমা দিন।",
+    "reasoning_english": "The image lacks specific features to identify the crop or diagnose any particular disease or pest."
+  },
+  "raw_text": "{\n  \"crop\": \"unclear\",\n  \"diagnosis\": \"নিশ্চিত নই\",\n  \"confidence\": \"low\",\n  \"advice_bangla\": \"ক্রপের আরো পরিষ্কার ছবি নিন এবং অ্যাপের মাধ্যমে পুনরায় জমা দিন।\",\n  \"reasoning_english\": \"The image lacks specific features to identify the crop or diagnose any particular disease or pest.\"\n}"
+}

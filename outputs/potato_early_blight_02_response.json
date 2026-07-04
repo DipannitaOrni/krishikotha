@@ -1,0 +1,12 @@
+{
+  "image": "potato_early_blight_02.jpg",
+  "response_time_sec": 3.26,
+  "parsed": {
+    "crop": "alu (potato)",
+    "diagnosis": "পাতার দাগের রোগ",
+    "confidence": "high",
+    "advice_bangla": "পটাশ সার প্রয়োগ করুন এবং রোগমুক্ত করা পাতা তুলে ফেলুন।",
+    "reasoning_english": "The dark spots and lesions on the leaves are indicative of early blight common in potato leaves."
+  },
+  "raw_text": "{\n  \"crop\": \"alu (potato)\",\n  \"diagnosis\": \"পাতার দাগের রোগ\",\n  \"confidence\": \"high\",\n  \"advice_bangla\": \"পটাশ সার প্রয়োগ করুন এবং রোগমুক্ত করা পাতা তুলে ফেলুন।\",\n  \"reasoning_english\": \"The dark spots and lesions on the leaves are indicative of early blight common in potato leaves.\"\n}"
+}

@@ -1,0 +1,12 @@
+{
+  "image": "potato_late_blight_02.jpg",
+  "response_time_sec": 2.44,
+  "parsed": {
+    "crop": "alu (potato)",
+    "diagnosis": "আলুর দেরী blight রোগ",
+    "confidence": "high",
+    "advice_bangla": "ফসল থেকে আক্রান্ত আলু সরিয়ে ফেলুন এবং প্রয়োজনমতো ছত্রাকনাশক প্রয়োগ করুন।",
+    "reasoning_english": "The potatoes show dark, rotting patches typical of late blight."
+  },
+  "raw_text": "{\n  \"crop\": \"alu (potato)\",\n  \"diagnosis\": \"আলুর দেরী blight রোগ\",\n  \"confidence\": \"high\",\n  \"advice_bangla\": \"ফসল থেকে আক্রান্ত আলু সরিয়ে ফেলুন এবং প্রয়োজনমতো ছত্রাকনাশক প্রয়োগ করুন।\",\n  \"reasoning_english\": \"The potatoes show dark, rotting patches typical of late blight.\"\n}"
+}

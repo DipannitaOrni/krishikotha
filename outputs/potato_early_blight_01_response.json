@@ -1,0 +1,12 @@
+{
+  "image": "potato_early_blight_01.jpg",
+  "response_time_sec": 2.96,
+  "parsed": {
+    "crop": "alu (potato)",
+    "diagnosis": "দাগ পতাকা রোগ",
+    "confidence": "high",
+    "advice_bangla": "জলনিকাশী ভালো করতে হবে এবং প্রয়োজনে ছত্রাকনাশক ব্যবহার করুন।",
+    "reasoning_english": "The photo shows characteristic dark spots with yellowing surrounding them, common in early blight."
+  },
+  "raw_text": "{\n  \"crop\": \"alu (potato)\",\n  \"diagnosis\": \"দাগ পতাকা রোগ\",\n  \"confidence\": \"high\",\n  \"advice_bangla\": \"জলনিকাশী ভালো করতে হবে এবং প্রয়োজনে ছত্রাকনাশক ব্যবহার করুন।\",\n  \"reasoning_english\": \"The photo shows characteristic dark spots with yellowing surrounding them, common in early blight.\"\n}"
+}

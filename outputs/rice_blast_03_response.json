@@ -1,0 +1,12 @@
+{
+  "image": "rice_blast_03.jpg",
+  "response_time_sec": 3.12,
+  "parsed": {
+    "crop": "dhan (rice)",
+    "diagnosis": "পাতার দাগ রোগ",
+    "confidence": "high",
+    "advice_bangla": "গুড়া মাত্রার ছত্রাকনাশক প্রয়োগ করুন। ফসলের স্বাস্থ্য পর্যবেক্ষণ চালিয়ে যান।",
+    "reasoning_english": "The spotted, discolored lesions on the leaves suggest a common leaf spot disease."
+  },
+  "raw_text": "{\n  \"crop\": \"dhan (rice)\",\n  \"diagnosis\": \"পাতার দাগ রোগ\",\n  \"confidence\": \"high\",\n  \"advice_bangla\": \"গুড়া মাত্রার ছত্রাকনাশক প্রয়োগ করুন। ফসলের স্বাস্থ্য পর্যবেক্ষণ চালিয়ে যান।\",\n  \"reasoning_english\": \"The spotted, discolored lesions on the leaves suggest a common leaf spot disease.\"\n}"
+}
