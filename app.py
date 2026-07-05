@@ -4,18 +4,36 @@ import subprocess
 
 st.title("KrishiKotha - কৃষি সহায়ক")
 
-audio_file = st.file_uploader("আপনার প্রশ্ন রেকর্ড করে আপলোড করুন", type=["wav", "mp3", "m4a"])
+st.write("আপনার প্রশ্ন বলুন এবং উত্তর শুনুন")
 
-if audio_file is not None:
-    with open("temp_input.wav", "wb") as f:
-        f.write(audio_file.getbuffer())
+# Live mic recording instead of file upload
+audio_value = st.audio_input("আপনার প্রশ্ন রেকর্ড করুন")
 
-    # Convert to proper format using ffmpeg
-    subprocess.run(["ffmpeg", "-y", "-i", "temp_input.wav", "-ar", "16000", "-ac", "1", "temp_fixed.wav"])
+if audio_value is not None:
+    try:
+        with st.spinner("শুনছি..."):
+            # Save the recorded audio
+            with open("temp_input.wav", "wb") as f:
+                f.write(audio_value.getbuffer())
 
-    text = listen("temp_fixed.wav")
-    st.write("**আপনি বলেছেন:**", text)
+            # Convert to proper format using ffmpeg
+            subprocess.run(
+                ["ffmpeg", "-y", "-i", "temp_input.wav", "-ar", "16000", "-ac", "1", "temp_fixed.wav"],
+                check=True,
+                capture_output=True
+            )
 
-    # For now, just echo back — later this becomes Pair 2's grounded answer
-    speak(text, "response.mp3")
-    st.audio("response.mp3")
+            # Transcribe
+            text = listen("temp_fixed.wav")
+
+        st.write("**আপনি বলেছেন:**", text)
+
+        with st.spinner("উত্তর তৈরি হচ্ছে..."):
+            # For now, just echo back — later this becomes Pair 2's grounded answer
+            speak(text, "response.mp3")
+
+        st.audio("response.mp3")
+
+    except Exception as e:
+        st.error("দুঃখিত, আবার চেষ্টা করুন। (Sorry, please try again.)")
+        st.caption(f"Debug info: {e}")
