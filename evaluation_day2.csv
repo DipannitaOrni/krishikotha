@@ -1,0 +1,3 @@
+timestamp,image,crop_given,diagnosis,confidence,advice_bangla,found_in_documents,response_time_sec,expected_disease,correct_diagnosis (fill: yes/partial/no),notes
+2026-07-06T11:37:49,rice_blast_01.jpg,rice,,high,ব্লাস্ট রোগের প্রাথমিক অবস্থায় জমিতে পানি ধরে রাখা এবং বিঘা প্রতি অতিরিক্ত ৫ কেজি পটাশ সার উপরি প্রয়োগ করতে হবে। অনুমোদিত ছত্রাকনাশক ৭ দিন অন্তর দুইবার স্প্রে করতে হবে।,,4.52,,,
+2026-07-06T11:37:52,potato_early_blight_01.jpg,potato,,high,রোগ দেখা দেওয়ার সাথে সাথে প্রতি লিটার পানিতে ২ গ্রাম রোভরাল মিশিয়ে ৭-১০ দিন পর পর প্রয়োগ করতে হবে। ডাইথেন এম-৪৫ ০.২% হারে প্রয়োগ করা যায়।,,2.81,,,

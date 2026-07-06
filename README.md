@@ -1,75 +1,83 @@
-# Photo Diagnosis — Go/No-Go Test (KrishiKotha)
+# Photo Diagnosis — Track 2 (Day 2)
 
-Person C's Day 1 task: test whether GPT-4o's vision capability can reasonably
-diagnose crop diseases from photos, in Bangla. Result decides whether the
-photo feature stays in scope for the rest of the hackathon.
+Person C's Day 2 task: turn the Day 1 go/no-go prototype into a reliable,
+hand-off-ready function by adding document grounding and crop pre-selection,
+then proving it's actually better than the Day 1 baseline.
 
-## Setup
+## What changed since Day 1
 
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+| | Day 1 (`test.py`) | Day 2 (`diagnose.py`) |
+|---|---|---|
+| Crop | Model guesses it | Passed in as a known fact (from a UI dropdown) |
+| Knowledge | General model knowledge only | Grounded in real disease reference docs |
+| Output | Loose JSON test | Clean `diagnose_photo()` function ready for `app.py` |
 
-2. Copy the env template and add your real API key:
-   ```bash
-   cp .env.example .env
-   ```
-   Then open `.env` and paste your OpenAI API key from
-   platform.openai.com/api-keys.
-
-3. Add 2–3 test photos to the `images/` folder. Aim for:
-   - 1 clear/textbook example of a known disease
-   - 1–2 harder/realistic cases (blurry, early-stage, or ambiguous)
-   - Cover your chosen crops (rice, potato, jute)
-
-## Run
+## Setup (same as Day 1)
 
 ```bash
-python test.py
+pip install -r requirements.txt
+cp .env.example .env
+# paste your real OpenAI key into .env
 ```
-
-This will:
-- Send each image to GPT-4o with a structured Bangla-diagnosis prompt
-- Print a quick summary to the terminal
-- Save the full raw response for each image to `outputs/`
-- Append a row per image to `evaluation.csv`
-
-## After running
-
-Open `evaluation.csv` and manually fill in two columns by reading each
-response:
-- **correct_diagnosis**: yes / partial / no — does the diagnosis match
-  what the photo actually shows?
-- **bangla_quality**: good / ok / broken — is the Bangla natural, or
-  stiff/awkward?
-
-## Go/No-Go criteria
-
-**GO** if, across your test photos:
-- Crop identification is consistently correct
-- Diagnosis is correct or close on the clear photo, reasonably hedged
-  (low confidence, honest "not sure") on hard ones
-- Bangla output is usable without heavy editing
-- Response time is workable for a live demo (a few seconds, not 30+)
-
-**NO-GO** (or flag as high-risk) if:
-- The model is confidently wrong on diagnoses — this is worse than no
-  feature at all, since a wrong diagnosis stated confidently could lead
-  a farmer to the wrong action
-- It only works on the obvious textbook case
-- Bangla output needs heavy fixing to be usable
-
-Report the result to the team at end-of-day sync, along with the filled
-`evaluation.csv`. If GO, hand `test.py`'s image-encoding + API-call logic
-to Person B as the seed for the real photo → diagnosis pipeline on Day 2.
 
 ## Files
 
-- `images/` — test crop photos (not committed if using real farmer photos
-  with any privacy concern — check before pushing to GitHub)
-- `outputs/` — raw JSON response per image, for debugging/reference
-- `test.py` — the test script
-- `evaluation.csv` — auto-generated summary log, manually annotated after
-- `.env.example` — template for your API key (real `.env` should be
-  gitignored)
+- `documents/` — one `.txt` per crop (`rice.txt`, `potato.txt`, `jute.txt`)
+  with disease symptoms. **Currently placeholders — replace with Person
+  A's real cleaned DAE/BARI/BRRI content the moment it's ready.** Keep
+  the same filename-per-crop pattern so `diagnose.py` finds them
+  automatically.
+- `diagnose.py` — the core module. Exposes `diagnose_photo(image_path, crop)`,
+  the exact function to hand off for `app.py`.
+- `compare_day2.py` — re-runs your Day 1 test photos through the new
+  grounded pipeline and logs results to `evaluation_day2.csv`, so you can
+  compare against Day 1's `evaluation.csv` and confirm things actually
+  improved.
+- `test.py`, `outputs/`, `evaluation.csv` — kept from Day 1 as your
+  baseline reference.
+
+## Step-by-step for today
+
+1. **Confirm go/no-go is still GO.** Check Day 1's `evaluation.csv`. If
+   results were mostly "no" with confident wrong answers, stop here and
+   tell the team to cut the feature — don't keep refining something
+   that's fundamentally unreliable.
+
+2. **Swap in real documents.** As soon as Person A hands off cleaned
+   text, replace the placeholder content in `documents/rice.txt`,
+   `documents/potato.txt`, `documents/jute.txt` (or add more crop files
+   if scope expanded).
+
+3. **Update `compare_day2.py`'s `TEST_SET`** to point at your actual Day 1
+   test image filenames and their known crop.
+
+4. **Run the comparison:**
+   ```bash
+   python compare_day2.py
+   ```
+
+5. **Score it.** Open `evaluation_day2.csv` and fill in
+   `correct_diagnosis` (yes/partial/no) by eye, same as Day 1. Then compare:
+   - Did the "yes" rate go up vs. Day 1's `evaluation.csv`?
+   - Is `grounded_in_docs` coming back `true` where you'd expect (i.e. is
+     it actually using the reference material, not ignoring it)?
+   - Is confidence more honestly calibrated (lower on genuinely unclear
+     photos, not falsely confident)?
+
+6. **Hand off `diagnose_photo()`.** Once you're satisfied it's an
+   improvement, this function is done — whoever builds `app.py` calls:
+   ```python
+   from diagnose import diagnose_photo
+   result = diagnose_photo(uploaded_image_path, selected_crop)
+   ```
+   No further changes needed from your side unless bugs turn up during
+   Day 3 integration.
+
+## Quick manual test (single image, no CSV logging)
+
+```bash
+python diagnose.py images/rice_blast_1.jpg rice
+```
+
+Prints the full JSON result to the terminal — useful for fast iteration
+while tuning the prompt in `_build_prompt()`.

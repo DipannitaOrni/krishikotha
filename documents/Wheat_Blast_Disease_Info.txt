@@ -1,0 +1,46 @@
+DISEASE: WHEAT BLAST (Gomer Blast Rog)
+Causal agent: Fungal disease (fungus)
+
+BACKGROUND
+- Wheat blast is a destructive fungal disease of wheat
+- Infection occurs when relatively warm and humid weather prevails from heading to flowering stage
+- First identified in Brazil in 1985, later spread to Bolivia, Paraguay, Argentina, and other South American countries
+- First appeared in Bangladesh in mid-February 2016, affecting about 15,000 hectares in Jashore, Kushtia, Meherpur, Jhenaidah, Chuadanga, Barisal, and Bhola districts
+- Infected fields can suffer 25-30% yield loss; in severe cases, entire fields can be destroyed
+- In the 2016-17 season, sporadic outbreaks were seen in Jashore, Meherpur, Magura, Jhenaidah, Chuadanga, Kushtia, and Faridpur, but infection was limited to 5-10% due to timely management
+
+SYMPTOMS
+- Wheat spikes (heads) turn white at the point of infection and spread quickly across the field under favorable weather
+- The fungus mainly attacks the wheat spike (head)
+- Blackish-grey spots appear at the point of infection on the spike, with the upper portion turning white
+- If infection occurs at the base of the spike, the entire spike dries up and turns white
+- Grains in infected spikes become shriveled and discolored
+- Leaves can also be infected, showing small, water-soaked, eye-shaped grey spots
+
+HOW THE DISEASE SPREADS
+- Spreads through infected/contaminated seeds
+- Infection occurs when spikes remain wet for 12-24 hours (from rain or high humidity) combined with temperatures of 18-25°C; spores then spread rapidly through the air
+- The fungus can survive on certain grassy weed hosts (e.g., Chapra grass, paddy grass, Angali grass)
+
+PREVENTION AND CONTROL
+- Collect seeds only from fields free of blast infection
+- Grow blast-tolerant varieties (BARI Gom 28, BARI Gom 30, BARI Gom 32) or the resistant variety (BARI Gom 33)
+- Sow seeds at the appropriate time — between November 15-30 (1st to 15th of Agrahayan) — to avoid rain and high temperatures during heading
+- Before sowing, treat seeds with a fungicide: mix 3 grams of Provax 200 WP (Carbendazim 37.5% + Thiram 37.5%) or 3 ml of Vitavax 200 FF (Carbendazim 17.5% + Thiram 17.5%) per kg of seed. Seed treatment also controls other seed-borne diseases and improves yield. Alternatively, Rovral 50 WP (Iprodione 50%) can be used at the same rate
+- Keep fields and field bunds free of weeds
+- As a preventive measure, spray fungicide twice: once when spikes emerge (heading), and again 12-15 days later
+  - Spray mixture: 6 grams of Nativo 75 WG (Tebuconazole 50% + Trifloxystrobin 25%) OR 10 ml of Amistar Top 325 SC (Azoxystrobin 20% + Difenoconazole 12.5%) mixed in 10 liters of water, for every 5 shotangsho (decimal) of land
+  - This spray also helps control leaf blight, black point disease, and blast/rust-related grain diseases
+
+SAFETY NOTE
+- While applying fungicides, use rubber or plastic gloves and a face mask to avoid skin contact and inhalation of chemicals
+
+FOR MORE INFORMATION, CONTACT
+- Nearest Agricultural Extension Office / Wheat Research Centre, BARI / Bangladesh Agricultural Development Corporation / CIMMYT office / Dealer point
+- Wheat Research Centre, Dinajpur: 0531-63342
+- Regional Agricultural Research Centre, Jashore: 0421-68649, 61059
+- Regional Agricultural Research Centre, Barisal: 04327-73361
+- CIMMYT-Bangladesh, Dhaka: 02-9896676
+
+Source: Wheat Research Centre, Bangladesh Agricultural Research Institute (BARI), Fact Sheet (2nd edition), published November 2017.
+Cooperation: CIMMYT, Bangladesh Agricultural Research Council, Bangladesh Rice Research Institute, Department of Agricultural Extension, Bangladesh Agricultural Development Corporation, Bangladesh Agricultural University, USAID, FAO, ACIAR, Bill & Melinda Gates Foundation.

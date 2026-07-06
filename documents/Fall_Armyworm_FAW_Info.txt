@@ -1,0 +1,39 @@
+PEST: FALL ARMYWORM (FAW) - Spodoptera frugiperda (J.E. Smith), Lepidoptera: Noctuidae
+
+SYMPTOMS
+- Semi-transparent "window pane" patches on leaves (superficial feeding, larval stages 1-2, crop stages V0-V3)
+- Holes in leaves and the whorl, called "Infested Whorl (IW)" (larval stages 4-6, crop stages V3-V5)
+- Accumulation of larval excreta (frass) in the whorl
+- Damaged/destroyed cobs, with larval droppings visible from silking to cob development stage
+- Heavy larvae (4th-5th instar) consume about 50x more food than early instars and can defoliate whole plants overnight
+- Spectrally (remote sensing): reduced near-infrared reflectance, increased visible-region (red/blue/green) reflectance, and a shift in the red-edge, indicating lower chlorophyll and water content in infested plants
+
+PREVENTION
+- Plant early with the first rains (FAW populations build up later in the season)
+- Avoid staggered planting dates (this provides a continuous food source for FAW)
+- Use FAW-resistant or short-duration maize varieties where available
+- Apply balanced fertilizer so plants stay vigorous and can tolerate some damage
+- Keep field borders free of weedy grasses (alternate hosts)
+- Plant hedgerows of legumes/flowering plants around fields to attract natural predators and birds
+- Intercrop maize with less-susceptible crops such as beans
+
+MONITORING
+- Start scouting as soon as seedlings emerge
+- Check 10-20 consecutive plants at 5 locations in the field and calculate percent infestation
+- Look for window-pane patches, whorl holes, and frass
+- Action thresholds:
+  - Early whorl (knee-high) stage: act if more than 20% of plants are damaged
+  - Late whorl (shoulder-high) stage: act if more than 40% of whorls are freshly damaged
+  - Tassel and silk stage: do NOT spray pesticides
+
+DIRECT CONTROL / SOLUTIONS
+- Hand-collect and destroy egg masses and larvae
+- Deploy pheromone traps (35-40 per hectare) for monitoring/mass trapping
+- Apply virus-based biopesticide SNPV (0.2 g per liter of water) every 10 days, 2-3 applications
+- Release Bracon hebetor parasitoid wasps (800-1,200/ha) as biological control
+
+RESTRICTIONS
+- Avoid broad-spectrum synthetic insecticides; they kill beneficial insects and can harm the applicator
+- For further guidance: Entomology Division, Bangladesh Agricultural Research Institute (BARI), Gazipur; and Plant Protection Wing, Department of Agricultural Extension (DAE), Khamarbari, Dhaka-1215, Bangladesh. Email: cso.ento@bari.gov.bd
+
+Source: PlantwisePlus Knowledge Bank - Pest Management Decision Guide (Begum et al.), DOI: 10.1079/pwkb.20197800348
