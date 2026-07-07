@@ -21,16 +21,33 @@ Structure:
                            empty/gibberish input.
   5. CONSISTENCY_CASES  — same question run N times to check whether the
                            diagnosis or rule-decision (answer/clarify/decline)
-                           flips between runs at temperature 0.2.
+                           flips between runs at temperature 0.0.
+
+Since the pipeline now runs in two calls (get_triage -> get_answer), each
+row also logs the triage decision itself (situation + candidates), not just
+the final Bangla text. This lets you catch a specific failure mode without
+reading prose: situation == "multiple_match" but the answer contains no "?"
+almost certainly means the answer call ignored its instruction, and
+situation/candidates that look wrong on their own face (e.g. only 1
+candidate for a case you know is 3-way ambiguous) point at the triage
+prompt rather than the answer prompt.
 
 Usage:
     python run_eval.py
 
 Results append to eval.csv with blank columns for manual scoring:
     grounded (y/n), correct_behavior (y/n), simple (y/n), bangla_quality (y/n), notes
+
+NOTE ON SCHEMA CHANGE: this version's header adds "situation" and
+"candidates" columns that did not exist before. The existing schema-mismatch
+guard below will detect that eval.csv was written by the older single-column
+script and automatically start a fresh eval_<run_id>.csv instead of
+misaligning columns — you don't need to do anything manually, but you will
+end up with two files to merge if you want one combined history.
 """
 
 import csv
+import json
 import os
 from datetime import datetime
 
@@ -41,7 +58,7 @@ CONSISTENCY_REPEATS = 3
 
 EXPECTED_HEADER = [
     "run_id", "timestamp", "category", "crop", "question",
-    "expected_behavior", "answer",
+    "expected_behavior", "situation", "candidates", "answer",
     "grounded", "correct_behavior", "simple", "bangla_quality", "notes",
 ]
 
@@ -106,6 +123,57 @@ COVERAGE_CASES = [
     ("ভুট্টার কচি পাতায় ফ্যাকাশে হলুদ সরু রেখা শিরা বরাবর, গাছ খাটো ও পাতা বাঁকা", "maize", "downy mildew"),
     ("ভুট্টার পাতার খোলে ধূসর-সবুজ পানিভেজা ব্যান্ড, গোড়া থেকে উপরে ছড়াচ্ছে", "maize", "banded leaf and sheath blight (BLSB)"),
     ("ভুট্টার কান্ডের নিচের অংশ নরম কালচে হয়ে পচে যাচ্ছে, ভিতরটা ফাঁপা", "maize", "stalk rot"),
+
+    # Cotton (full coverage — 8 diseases)
+    ("তুলার চারার বীজপত্র হলুদ হয়ে বাদামি হচ্ছে, বোঁটার গোড়ায় বাদামি রিং, গোড়ার পুরনো পাতা থেকে উপরের দিকে ঢলে যাচ্ছে", "cotton", "Fusarium wilt"),
+    ("তুলা পাতায় শিরার মাঝে হলুদ ভাব, কিনারা শুকিয়ে বাঘের ডোরার মতো দাগ, কান্ড কাটলে গোলাপি রং", "cotton", "Verticillium wilt (\"tiger stripe\")"),
+    ("তুলা গাছ হঠাৎ ঢলে পড়ছে জমিতে গুচ্ছ আকারে, শিকড় পচে গেছে শুধু মূল শিকড় ছাড়া, বাকলে কালচে বাদামি দানার মতো জিনিস", "cotton", "Root rot"),
+    ("তুলার বলে ছোট পানিভেজা লালচে-বাদামি বসা দাগ, তুলার আঁশ হলুদ-বাদামি দাগযুক্ত ও শক্ত হয়ে যাচ্ছে", "cotton", "Anthracnose"),
+    ("তুলার বল কালো দাগে ভরে গিয়ে পচে যাচ্ছে, বল ফাটছে না, বল ঝরে পড়ছে", "cotton", "Boll rot"),
+    ("তুলা পাতায় ছোট গোলাকার বাদামি দাগ, দাগের মধ্যে চক্রাকার বলয় (রিং), দাগ একসাথে মিশে পাতা ঝরে পড়ছে", "cotton", "Leaf blight (Alternaria)"),
+    ("তুলা পাতায় কৌণিক পানিভেজা দাগ শিরা দ্বারা সীমাবদ্ধ, কান্ডে কালো লম্বাটে দাগ, ডাল ভেঙে শুকনো কালো ডালের মতো ঝুলে আছে", "cotton", "Bacterial blight (\"black arm\" phase)"),
+    ("তুলা পাতা উপরে-নিচে কুঁকড়ে যাচ্ছে, শিরা মোটা হয়ে যাচ্ছে, পাতার নিচে ছোট ছোট বাড়তি অংশ (এনেশন)", "cotton", "Leaf curl disease (CLCuV)"),
+
+    # Sugarcane (full coverage — 11 diseases)
+    ("আখ কাটলে ভেতরে লাল রং এবং মদের মতো গন্ধ বের হচ্ছে, পাতার মধ্যশিরায় লাল দাগ", "sugarcane", "Red rot"),
+    ("আখ গাছ ৪-৫ মাস বয়সে হলুদ হয়ে শুকিয়ে ঢলে পড়ছে, চিরে দেখলে ভেতরে বেগুনি-লাল দাগ ও দুর্গন্ধ, সাদা তুলার মতো ছত্রাক", "sugarcane", "Stem canker / wilt"),
+    ("আখ পাতায় মধ্যশিরা বরাবর সাদা-ক্রিম রঙের সমান্তরাল ডোরা, গাছ খাটো হয়ে যাচ্ছে পার্শ্ব কুশি ছাড়াই", "sugarcane", "White leaf disease"),
+    ("আখ গাছের মাথা থেকে লম্বা কালো চাবুকের মতো পাকানো কান্ড বের হয়েছে, রূপালি পর্দায় ঢাকা", "sugarcane", "Whip smut"),
+    ("আখ গাছ খাটো, কুশি কম, চিরলে গিঁটে ফোঁটা বা কমার মতো রঙিন দাগ দেখা যাচ্ছে কিন্তু বাইরে তেমন লক্ষণ নেই", "sugarcane", "Ratoon stunting disease (RSD)"),
+    ("আখের সেট রোপণের ২-৩ সপ্তাহ পর পচে যাচ্ছে, আনারসের মতো গন্ধ বের হচ্ছে", "sugarcane", "Sett rot / pineapple disease"),
+    ("আখ পাতায় মধ্যশিরা থেকে কিনারা পর্যন্ত সরু সাদা পেন্সিলের রেখার মতো দাগ শিরার সমান্তরালে", "sugarcane", "Leaf scald"),
+    ("আখের কচি পাতায় হলুদাভ ডোরা স্বাভাবিক সবুজ অংশের সাথে পালাক্রমে, গাছ খাটো ও হলদেটে", "sugarcane", "Mosaic"),
+    ("আখ পাতায় ক্লোরোটিক দাগে গাঢ় লাল রেখা, কান্ড ফাটালে দুর্গন্ধযুক্ত হলদে আঠা বের হচ্ছে", "sugarcane", "Red-stripe & top rot"),
+    ("আখ গাছ খাটো ও হলদেটে, শিকড় খুঁড়লে গিঁটযুক্ত ফোলা দেখা যাচ্ছে", "sugarcane", "Root-knot disease"),
+    ("আখের কচি পাতা পেঁচিয়ে ও কুঁচকে যাচ্ছে, গোড়া স্বাভাবিকের চেয়ে সরু, পরে সিঁড়ির ধাপের মতো দাগ কান্ডে", "sugarcane", "Pokkah boeng"),
+
+    # Tea (full coverage of diseases with described symptoms — 8 of 10; Horse Hair Blight
+    # and Branch Canker have no symptom text in the doc, see GROUNDING_STRESS_CASES)
+    ("চা পাতায় হলুদ বা ছাই রঙের উঁচু ছোট ছোট গোলাকার দাগ, মার্চ-মে মাসে বেশি দেখা যাচ্ছে", "tea", "Algal leaf rust / red rust"),
+    ("চা পাতা পচে কালো হয়ে যাচ্ছে", "tea", "Black rot"),
+    ("চা গাছের ডালে সুতার মতো ছত্রাকের জাল জড়িয়ে আছে", "tea", "Thread blight"),
+    ("চা পাতায় বাদামি অনিয়মিত দাগ, দাগের কেন্দ্রে হালকা ছাই রং এবং চারপাশে গাঢ় সীমানা, পুরনো পাতায় বেশি", "tea", "Brown blight"),
+    ("চা পাতার কিনারা বা আগা থেকে ধূসর রঙের দাগ শুরু হয়ে ছড়াচ্ছে, দাগের মধ্যে কালো বিন্দু দেখা যাচ্ছে", "tea", "Grey blight"),
+    ("চা গাছের শিকড় পচে যাচ্ছে, শিকড়ে লালচে-বাদামি ছত্রাকের তন্তু জমেছে, গাছ ধীরে ধীরে হলুদ হয়ে শুকিয়ে যাচ্ছে", "tea", "Red root rot"),
+    ("চা পাতায় অনিয়মিত বাদামি-কালচে দাগ, আক্রান্ত অংশ শুকিয়ে ঝরে পড়ছে", "tea", "Leaf anthracnose"),
+    ("চা গাছের ডালের আগা থেকে শুকাতে শুরু করে ক্রমশ নিচের দিকে নামছে, দুর্বল গাছে বেশি", "tea", "Dieback"),
+
+    # Mango (representative subset of 20 — same convention as potato — spanning every
+    # category: fungal major/minor, algal, bacterial, nematode, non-pathogenic)
+    ("আম গাছের মুকুল কালো হয়ে শুকিয়ে ঝরে যাচ্ছে, ফলে কালো বসা দাগ", "mango", "Anthracnose"),
+    ("আম গাছের মুকুল ও কচি পাতায় সাদা পাউডারের মতো আস্তরণ পড়েছে", "mango", "Powdery mildew"),
+    ("আম গাছের মুকুল ছোট ঘন গুচ্ছাকার হয়ে বিকৃত হয়ে গেছে, ফল ধরছে না", "mango", "Mango malformation"),
+    ("আম গাছের ডালের আগা থেকে শুকাতে শুরু করে নিচের দিকে নামছে, ডাল ঝলসে যাচ্ছে", "mango", "Die-back"),
+    ("আম ফলের বোঁটার বিপরীত প্রান্তে পচন শুরু হয়ে কালচে বাদামি হয়ে যাচ্ছে", "mango", "Fruit end rot"),
+    ("আম ফলের বোঁটার গোড়া থেকে পচন শুরু হয়ে কালো হয়ে যাচ্ছে, ভেতরটাও কালো", "mango", "Diplodia/charcoal rot (stem-end-rot)"),
+    ("আম পাতা ও ফলের উপর কালো ঝুরঝুরে কালির মতো আস্তরণ, গাছে মিলিবাগ বা এফিড আছে", "mango", "Sooty mold"),
+    ("আম ফল ও কাণ্ডে উঁচু বাদামি খসখসে দাগ", "mango", "Mango scab"),
+    ("আম পাতায় গোলাকার বাদামি দাগ কেন্দ্রে বৃত্তাকার রিং সহ", "mango", "Alternaria leaf spot"),
+    ("আম পাতায় লালচে মরিচা রঙের গোলাকার দাগ, প্রথমে ছাই রঙ পরে লালচে", "mango", "Leaf red rust (algal)"),
+    ("আম পাতা ও ফলে কর্কের মতো উঁচু বাদামি দাগ, চারপাশে হলদে বলয়", "mango", "Asiatic canker"),
+    ("আম গাছের কাণ্ডে ডালের সংযোগস্থলে আলুর মতো উঁচু টিউমার/গোটা", "mango", "Crown gall"),
+    ("আম চারার শিকড়ে ছোট ছোট গিঁট/গুটি, চারা বৃদ্ধিতে বাধাগ্রস্ত ও পাতা হলদে", "mango", "Root-knot nematode"),
+    ("আম ফলের গায়ে ফাটল দেখা যাচ্ছে, রোগের লক্ষণ নেই", "mango", "Fruit cracking due to boron deficiency (non-pathogenic — check it doesn't misdiagnose as a disease)"),
 ]
 
 # ---------------------------------------------------------------------------
@@ -142,6 +210,41 @@ RULE3_CLARIFY_CASES = [
         "maize",
         "Ambiguous across Turcicum leaf blight (cigar-shaped grey-tan lesions), common rust (round reddish-brown pustules), downy mildew (pale streaking parallel to veins), and fall armyworm (holes/window-pane patches, a pest not a disease) — should ask whether the damage is holes/frass (pest) vs. spots/lesions (disease), and if disease, the lesion shape. Also checks whether FAW (duplicated across two source docs) is over-favored just from repetition.",
     ),
+    (
+        "তুলা গাছ ঢলে পড়ছে",
+        "cotton",
+        "Ambiguous across Fusarium wilt (older leaves first, yellowing then browning, black vascular streaks), Verticillium wilt (bronzing/interveinal chlorosis, 'tiger stripe', pinkish woody tissue), and root rot (sudden complete wilting in patches, roots rotted except taproot) — should ask about which leaves wilted first, vascular colour when cut, and whether it's sudden/patchy vs. gradual.",
+    ),
+    (
+        "তুলার বলে দাগ পড়ে পচে যাচ্ছে",
+        "cotton",
+        "Ambiguous across anthracnose (small reddish-brown depressed spots, lint stained yellow/brown), boll rot (black dots enlarging to cover whole boll, bolls never burst), and bacterial blight's square/boll rot phase (water-soaked lesions turning dark black with bacterial ooze staining lint yellow) — should ask about spot colour and whether any bacterial ooze is present.",
+    ),
+    (
+        "আখ গাছ ঢলে পড়ছে এবং ভেতরের রঙ পরিবর্তন হয়ে গেছে",
+        "sugarcane",
+        "Ambiguous across red rot (blood-red lesions, alcoholic smell, red internal tissue with whitish patches), stem canker/wilt (purple/dark red pith discolouration near node, disagreeable odour, cottony white mycelium), and pokkah boeng (reddish streaks/ladder-like lesions, distorted young leaves) — should ask about the internal colour/smell and whether young leaves are twisted.",
+    ),
+    (
+        "আখ পাতায় সাদা বা হলুদ ডোরা দেখা যাচ্ছে",
+        "sugarcane",
+        "Ambiguous between white leaf disease (pure white/cream stripes parallel to midrib, stunted with no side shoots) and mosaic (chlorotic yellowish-green stripes alternating with normal green, more on younger foliage, spread by aphids) — should ask about the exact stripe colour and whether tillering/side-shoot growth is affected.",
+    ),
+    (
+        "চা পাতায় দাগ পড়ে ধীরে ধীরে শুকিয়ে যাচ্ছে",
+        "tea",
+        "Ambiguous across brown blight (brown spot, light ash centre, dark border), grey blight (grey/ash spot starting from edge/tip, black dot fruiting bodies inside), and leaf anthracnose (irregular brown-blackish spots, no defined ring/border) — should ask where on the leaf the spot started and whether black dots or a ringed centre are visible.",
+    ),
+    (
+        "আম পাতায় পানিভেজা দাগ দেখা যাচ্ছে",
+        "mango",
+        "Ambiguous across three different bacterial diseases with overlapping symptoms: Bacterial leaf blight — Pseudomonas syringae (water-soaked spots turning brown/black), Bacterial leaf blight — Xanthomonas campestris pv. mangiferae-indicae (irregular water-soaked spots spreading to leaf scorch), and Asiatic canker (raised corky brown lesions with yellow halo, once past the water-soaked stage) — should ask whether lesions are raised/corky vs. flat, and note that two distinct pathogens share the exact same disease name in this doc (duplication-bias check).",
+    ),
+    (
+        "আম গাছের ডাল কালো হয়ে শুকিয়ে যাচ্ছে",
+        "mango",
+        "Ambiguous between anthracnose (twig-tip blackening, worse in wet/humid weather) and die-back (Botryosphaeria theobromae, tip-to-base drying, worse in weak/injured/old trees, not tied to a specific season) — should ask about recent weather and whether the tree was previously injured or old/weak.",
+    ),
 ]
 
 # ---------------------------------------------------------------------------
@@ -158,6 +261,21 @@ GROUNDING_STRESS_CASES = [
         "jute",
         "Same issue — root-knot nematode is named but undescribed in the doc.",
     ),
+    (
+        "চা গাছে হর্স হেয়ার ব্লাইট রোগের লক্ষণ কী?",
+        "tea",
+        "Doc names 'Horse Hair Blight (Marasmius equicrinis)' and gives management only, no symptom description at all. Should NOT invent symptoms — check if it hallucinates from general plant-pathology knowledge instead of admitting the doc lacks detail.",
+    ),
+    (
+        "চা গাছে ব্রাঞ্চ ক্যাংকার রোগের লক্ষণ কী?",
+        "tea",
+        "Same issue — 'Branch Canker' is named in the doc with management steps only (cutting back infected wood, fungicide paste), no symptom text given at all.",
+    ),
+    (
+        "সুগারকেন হোয়াইট লিফ ডিজিজ কীভাবে দমন করব?",
+        "sugarcane",
+        "Doc gives full symptom text for white leaf disease but explicitly states favourable conditions, disease cycle, and management are 'not specified in source document'. Should NOT invent a management/control regimen — check it admits the doc has no control measures for this one, rather than borrowing generic phytoplasma advice.",
+    ),
 ]
 
 # ---------------------------------------------------------------------------
@@ -173,6 +291,9 @@ ADVERSARIAL_CASES = [
     ("আমার ভুট্টা গাছে পোকা দেখা যাচ্ছে", "corn (not covered)", "Genuinely out-of-scope crop — should decline, not guess from general knowledge."),
     ("", "n/a", "Empty string — check it doesn't crash or return something nonsensical."),
     ("asdkjfh qwoeiuroiu ৩২৪৩২", "n/a", "Gibberish input — check graceful handling."),
+    ("আমগাছে ফলে কালো দাগ পড়েছে", "mango (no-space compound 'আমগাছে')", "Crop-keyword bug check: CROP_KEYWORDS for mango only match 'আম গাছ'/'আমের'/'আম বাগান' (with a space); the natural no-space compound 'আমগাছে' may not match any of them. Check whether it still recognizes mango or silently fails/asks which crop instead of just answering correctly by luck."),
+    ("চাগাছের পাতায় দাগ পড়েছে", "tea (no-space compound 'চাগাছের')", "Same crop-keyword bug check for tea: CROP_KEYWORDS require 'চা গাছ'/'চা বাগান'/'চায়ের' with a space; 'চাগাছের' has no space and may not match. Check graceful handling rather than a silent miss."),
+    ("আমার তুলা আর আখ দুটো গাছই ঢলে পড়ছে", "cotton + sugarcane (mixed)", "Two crops in one question — check it addresses both or asks which one first, rather than silently answering only one (same pattern as the existing rice+potato case)."),
 ]
 
 # ---------------------------------------------------------------------------
@@ -184,23 +305,35 @@ CONSISTENCY_CASES = [
     ("আমার পাটের গাছে কালো দাগ দেখা যাচ্ছে", "jute", "ambiguous case — check whether it flips between answering directly and asking to clarify"),
     ("গমের পাতায় দাগ দেখা যাচ্ছে", "wheat", "duplication-bias case — wheat blast is repeated across two source docs; check it doesn't get silently favored and that the clarify decision is stable"),
     ("ভুট্টার পাতায় দাগ ও ক্ষতি দেখা যাচ্ছে", "maize", "duplication-bias case — FAW is repeated across two source docs; check it doesn't get silently favored and that the clarify decision is stable"),
+    ("তুলা গাছ ঢলে পড়ছে", "cotton", "ambiguous case across Fusarium wilt / Verticillium wilt / root rot — check whether it flips between answering directly and asking to clarify"),
+    ("আম পাতায় পানিভেজা দাগ দেখা যাচ্ছে", "mango", "duplication-bias case — two distinct diseases in the doc are both literally named 'Bacterial Leaf Blight' (Pseudomonas syringae vs Xanthomonas campestris); check it doesn't arbitrarily/inconsistently favor one pathogen and that the clarify decision is stable"),
 ]
+
+
+def _row_from_result(run_id, category, crop, question, expected, answer, triage):
+    return [
+        run_id,
+        datetime.now().isoformat(timespec="seconds"),
+        category,
+        crop,
+        question,
+        expected,
+        triage.get("situation", ""),
+        json.dumps(triage.get("candidates", []), ensure_ascii=False),
+        answer,
+        "", "", "", "",  # grounded, correct_behavior, simple, bangla_quality, notes
+    ]
 
 
 def _write_rows(writer, run_id, rows):
     for question, crop, category, expected in rows:
         print(f"[{category}] {question[:50]}")
-        answer = answer_question(question, CROP_DOCS, COMBINED_DOCS)
-        writer.writerow([
-            run_id,
-            datetime.now().isoformat(timespec="seconds"),
-            category,
-            crop,
-            question,
-            expected,
-            answer,
-            "", "", "", "",  # grounded, correct_behavior, simple, bangla_quality, notes
-        ])
+        answer, triage = answer_question(
+            question, CROP_DOCS, COMBINED_DOCS, return_triage=True
+        )
+        writer.writerow(
+            _row_from_result(run_id, category, crop, question, expected, answer, triage)
+        )
 
 
 def run_eval():
@@ -218,9 +351,11 @@ def run_eval():
             existing_header = next(csv.reader(f), [])
         if existing_header != EXPECTED_HEADER:
             # Schema changed since this file was created (e.g. an older
-            # version of this script wrote it). Appending now would
-            # silently misalign columns, like it did before. Write to a
-            # fresh, clearly-named file instead of corrupting the old one.
+            # version of this script wrote it, or — as of this version —
+            # the "situation"/"candidates" columns were added for the
+            # two-call pipeline). Appending now would silently misalign
+            # columns. Write to a fresh, clearly-named file instead of
+            # corrupting the old one.
             csv_path = f"eval_{run_id}.csv"
             file_exists = False
             print(
@@ -253,17 +388,15 @@ def run_eval():
         for question, crop, expected in CONSISTENCY_CASES:
             for i in range(1, CONSISTENCY_REPEATS + 1):
                 print(f"[consistency #{i}] {question[:50]}")
-                answer = answer_question(question, CROP_DOCS, COMBINED_DOCS)
-                writer.writerow([
-                    run_id,
-                    datetime.now().isoformat(timespec="seconds"),
-                    f"consistency_run{i}",
-                    crop,
-                    question,
-                    expected,
-                    answer,
-                    "", "", "", "",
-                ])
+                answer, triage = answer_question(
+                    question, CROP_DOCS, COMBINED_DOCS, return_triage=True
+                )
+                writer.writerow(
+                    _row_from_result(
+                        run_id, f"consistency_run{i}", crop, question, expected,
+                        answer, triage,
+                    )
+                )
 
     total = (
         len(COVERAGE_CASES) + len(RULE3_CLARIFY_CASES) + len(GROUNDING_STRESS_CASES)
