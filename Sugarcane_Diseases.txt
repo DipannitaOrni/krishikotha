@@ -1,0 +1,286 @@
+CROP: Sugarcane
+DISEASE NAME: Red Rot
+DISEASE GROUP: Fungal
+CAUSAL ORGANISM: Colletotrichum falcatum (anamorph); Glomerella
+tucumanensis (perfect stage)
+SYMPTOMS: Recognized when canes near maturity. First symptom is
+discolouration of young leaves - typically 3rd/4th leaf from top turns
+paler and droops slightly; tip dries and withers along the margin, central
+area stays green. Leaves show dark red lesions on the mid-rib that
+elongate and turn blood-red with dark margins; mature lesions have a
+straw-coloured centre with black dot-like acervuli. Split canes give off
+an alcoholic smell (fermentation); internal tissue is red, interrupted by
+whitish patches in internodal tissue. Reddening most intense in vascular
+bundles, extending to pith. Pith eventually dries, rind shrinks, canes
+become lighter and break easily.
+FAVOURABLE CONDITIONS: Monoculturing of sugarcane; successive ratoon
+cropping; water-logged conditions and insect-caused injuries.
+DISEASE CYCLE / PERPETUATION: Perpetuated year to year via infected planting
+setts and fungus surviving on diseased canes/ratoon crop. Fungus may
+persist in soil via diseased clumps/dry leaves left after harvest. Primary
+infection mainly from infected setts; secondary infection via spores on
+affected canes and leaf midribs. Secondary spread via irrigation water,
+tools/implements, wind-borne inocula. Survives on collateral hosts Sorghum
+vulgare, S. halepense, Saccharum spontaneum. Conidia invade leaves through
+wounds including midrib splitting. Stem infection via borer tunnels, root
+primordial, and seed cuttings; soil-borne fungus may enter healthy setts
+through cut ends.
+MANAGEMENT:
+- Cultivate resistant varieties (e.g., Iswardi 2/54, Iswardi-16,
+  Iswardi-17).
+- Plant only healthy setts.
+- Hot water treatment of setts at 52°C for 30 minutes.
+- Dip setts momentarily in Aratan-6 solution (1/2 lb per 23 gallons water)
+  before planting.
+- Dip cut ends in coal tar before planting.
+- Strictly avoid ratooning infected fields.
+- Destroy plant debris and diseased material by burning after harvest.
+- Control borers and improve field drainage.
+
+--------------------------------------------------------------------------------
+CROP: Sugarcane
+DISEASE NAME: Stem Canker / Wilt
+DISEASE GROUP: Fungal
+CAUSAL ORGANISM: Cephalosporium sacchari (= Fusarium sacchari)
+SYMPTOMS: First symptoms appear only after plant has grown 4-5 months.
+Leaves of affected clumps gradually turn yellow and dry, causing wilting of
+the cane. Longitudinal splitting reveals pith discoloured purple or dark
+red near the node. A characteristic disagreeable odour is associated with
+diseased canes. Cottony white mycelium may be seen in the pith region.
+FAVOURABLE CONDITIONS: High day temperature (30-35°C); low humidity
+(50-60%); low soil moisture and alkaline soils; excess nitrogenous
+fertilizer doses.
+DISEASE CYCLE / DISSEMINATION: Fungus remains in diseased canes/plant
+debris left in fields after harvest; ratoon crop helps fungus survive.
+Transmitted via infected seed setts, air, rain water, and irrigation water.
+Penetrates cane base and below-soil region through wounds. Can survive in
+soil as saprophyte for 2-3 years; favoured by near-neutral/alkaline soils.
+MANAGEMENT:
+- Plant disease-free setts and use resistant varieties.
+- Avoid alkaline soils for cultivation.
+- Destroy cane plant debris (controls disease in alkali soils).
+- Dip setts in Bavistin fungicide solution (0.1%) for 30 minutes before
+  planting.
+- Discourage ratooning of diseased crop.
+
+--------------------------------------------------------------------------------
+CROP: Sugarcane
+DISEASE NAME: White Leaf Disease
+DISEASE GROUP: MLO (Mycoplasma-like organism / Phytoplasma)
+CAUSAL ORGANISM: Phytoplasma (MLO)
+SYMPTOMS: Initially a single white/cream line parallel to the midrib.
+Later, several straight white-to-light-green-to-yellow stripes develop
+parallel to the midrib along the entire leaf length (rarely onto upper leaf
+sheath). Mottled pattern of normal/light-green dot, spot, streak or patch
+islands on a white background, varying in size/shape. Plant vigour
+decreases as disease develops; stunted stalks, absence of side shoots on
+upper stalk, and abnormal tillering.
+FAVOURABLE CONDITIONS: Not specified in source.
+DISEASE CYCLE: Not specified in source (phytoplasma diseases are typically
+spread by leafhopper vectors and infected planting material).
+MANAGEMENT: Not specified in source document.
+
+--------------------------------------------------------------------------------
+CROP: Sugarcane
+DISEASE NAME: Whip Smut
+DISEASE GROUP: Fungal
+CAUSAL ORGANISM: Ustilago scitaminea
+SYMPTOMS: Affected canes produce long, black, whip-like, coiled/curved
+shoots covered with a thin silvery membrane containing fungal spore masses.
+Smutted shoots arise from the growing point of the cane. At maturity, the
+whip ruptures, releasing millions of tiny black smut spores (teliospores)
+dispersed by wind, contaminating soil and standing crop. Infected plants
+may remain stunted with many tillers bearing small, narrow leaves.
+FAVOURABLE CONDITIONS: Monoculturing of sugarcane; continuous ratooning and
+dry weather during the tillering stage.
+DISEASE CYCLE: Teliospores may survive in soil up to 10 years; spores also
+present in infected plant material in soil, and smut spores/dormant
+mycelium present in/on infected setts. Primary spread via diseased
+seed-pieces (setts); soil-borne spores also spread via rain/irrigation
+water. Secondary spread mainly through smut spores from whips, aided by air
+currents. Survives on collateral hosts Saccharum spontaneum, S. robustum,
+Sorghum vulgare, Imperata arundinacea, Cyperus dilatatus.
+MANAGEMENT:
+- Do not use setts from smutted canes for planting.
+- Rogue out and burn smutted plants before spore release.
+- Encourage use of resistant varieties.
+- Avoid ratooning infected fields.
+- 95% moist hot air at 54°C for 4 hours, or hot water treatment of setts at
+  50°C for 3 hours, to eliminate internal infection.
+- Disinfect seed-setts in 0.1% mercuric chloride or formaline solution for
+  5 minutes, followed by 2 hours covered under a moist cloth (or other
+  effective market chemicals).
+- Crop rotation.
+
+--------------------------------------------------------------------------------
+CROP: Sugarcane
+DISEASE NAME: Ratoon Stunting Disease (RSD)
+DISEASE GROUP: Bacterial (RLO - Rickettsia-like organism)
+CAUSAL ORGANISM: Clavibacter xyli
+SYMPTOMS: No specific external symptoms typical of most plant diseases.
+External expression includes stunted growth, reduced tillering, thin
+stalks with shortened internodes, and yellowish foliage. Longitudinal
+slicing of a diseased stalk reveals discoloration at the node of mature
+canes in the shape of dots or commas, and general pink colour in the nodes
+of very young canes. Colour range includes yellow, orange, pink, red, and
+reddish brown.
+FAVOURABLE CONDITIONS: Not separately specified; spread favoured by use of
+contaminated cutting tools and infected planting material.
+DISEASE CYCLE / DISSEMINATION: Spreads mainly through planting material;
+setts should be selected from healthy plants. Also spread via knives,
+sickles, or agricultural equipment used in the cane field.
+MANAGEMENT:
+- Adequate irrigation, particularly at early growth stages (plant crops)
+  and in less susceptible varieties.
+- Provide healthy planting material.
+- Use resistant varieties.
+- Hot water treatment of setts at 50°C for 3 hours.
+- Sterilize cane knives with 20% "lysol" solution.
+- Establish a clean seed nursery as a source of planting material.
+
+--------------------------------------------------------------------------------
+CROP: Sugarcane
+DISEASE NAME: Sett Rot / Pineapple Disease
+DISEASE GROUP: Fungal
+CAUSAL ORGANISM: Ceratocystis paradoxa
+SYMPTOMS: Primarily affects setts, usually 2-3 weeks after planting.
+Diseased setts may rot before germination, or shoots may die after reaching
+6-12 inches height. Affected tissues first turn reddish, then brownish
+black, with sett contents rotting. Severely affected setts show internodal
+cavities covered with mycelium and abundant spores. A characteristic
+pineapple smell is associated with the rotting (hence the name). Surviving
+infected shoots are very much stunted and chlorotic.
+FAVOURABLE CONDITIONS: Poorly drained fields; heavy clay soils; temperature
+of 25-30°C; prolonged rainfall after planting.
+DISEASE CYCLE: Not separately detailed beyond symptom description; spreads
+via infected setts and soil under favourable moist conditions.
+MANAGEMENT:
+- Obtain healthy setts from a disease-free field.
+- Soak setts in 0.05% Carbendazim for 15 minutes before planting to protect
+  cut ends.
+- Pretreat setts with hot water to stimulate bud germination and hasten
+  growth, helping plants outcompete the pathogen.
+- Combine field sanitation with chemical pre-treatment of setts.
+- Provide adequate drainage during rainy seasons.
+
+--------------------------------------------------------------------------------
+CROP: Sugarcane
+DISEASE NAME: Leaf Scald
+DISEASE GROUP: Bacterial
+CAUSAL ORGANISM: Xanthomonas albilineans
+SYMPTOMS: Most typical symptom is a white pencil-line streak (1-2 mm wide)
+on the leaf, extending from the midrib to the leaf margin, running parallel
+to veins. As disease progresses, necrosis develops from the leaf tip or
+margin. On mature stalks, side shoots appear from each node at the stalk
+base and progress upward, usually showing scalding and/or white pencil
+lines. Internally, affected stalks may show bright-to-dark red streaks from
+vascular bundle necrosis. Acute phase: sudden wilting and death of mature
+stalks, often without prior symptom expression.
+FAVOURABLE CONDITIONS: Not separately specified in source.
+DISEASE CYCLE: Not separately detailed; spread by infected setts and
+mechanical transmission via cutting tools.
+MANAGEMENT:
+- Prevention and replacement of susceptible varieties with resistant ones
+  (best control).
+- Long hot-water treatment of setts to kill the pathogen.
+- Sterilize all cane cutting knives, including mechanical harvester blades,
+  when coming from suspect fields, to prevent mechanical spread.
+
+--------------------------------------------------------------------------------
+CROP: Sugarcane
+DISEASE NAME: Mosaic
+DISEASE GROUP: Viral
+CAUSAL ORGANISM: Sugarcane Mosaic Virus (SCMV)
+SYMPTOMS: Appears more prominently on the basal portion of younger foliage
+as chlorotic/yellowish stripes alternating with normal green leaf portions.
+As infection becomes severe, yellow stripes appear on the leaf sheath and
+stalks. Elongated necrotic lesions develop on stalks, causing stem
+splitting. Necrotic lesions also develop on internodes; entire plant
+becomes stunted and chlorotic.
+FAVOURABLE CONDITIONS: Not separately specified.
+DISSEMINATION: Transmitted through mosaic-infected setts and by an aphid
+vector. Alternate hosts: maize and sorghum.
+MANAGEMENT:
+- Dig out and destroy infected plants by burning.
+- Rogue out diseased clumps periodically.
+- Plant virus-free setts; avoid ratooning diseased crop.
+- Aerated Steam Therapy (AST) at 56°C for 3 hours for setts before
+  planting.
+- Grow resistant varieties.
+- Timely control of the insect (aphid) vector.
+
+--------------------------------------------------------------------------------
+CROP: Sugarcane
+DISEASE NAME: Red-Stripe & Top Rot
+DISEASE GROUP: Bacterial
+CAUSAL ORGANISM: Pseudomonas rubrilineans
+SYMPTOMS: Red stripe: chlorotic lesions carrying dark red stripes on
+leaves, either distributed over the blade or concentrated in the middle;
+several may coalesce to cover large leaf areas; initially water-soaked
+green stripes, turning dark red on both leaf surfaces. In severe infection,
+rotting commences at the tip and spreads downward, causing shoot/top rot.
+Splitting affected canes downward reveals vascular bundles exuding foul-
+smelling yellowish gum, with dark red tissue discoloration.
+FAVOURABLE CONDITIONS: Continuous ratooning; prolonged rainy weather with
+low temperature (25°C).
+DISEASE CYCLE / DISSEMINATION: Spreads in the field via wind, rain, and
+cutting. Bacterial cells falling on host plants enter through natural
+openings or wounds and establish in various tissues, including the xylem.
+MANAGEMENT:
+- Difficult disease to control.
+- Remove and burn affected plants as soon as noticed (systematic
+  destruction reduces disease incidence).
+- Grow resistant varieties (best method of control).
+- Use disease-free certified setts.
+
+--------------------------------------------------------------------------------
+CROP: Sugarcane
+DISEASE NAME: Root-Knot Disease
+DISEASE GROUP: Nematode
+CAUSAL ORGANISM: Meloidogyne javanica
+SYMPTOMS: Diseased plants are chlorotic and stunted; yellow stripes show on
+young leaves while older leaves appear healthy. Roots, when dug out, are
+found knotted; nematodes are found inside the knots, feeding on the plant
+juice; in some cases plants die.
+FAVOURABLE CONDITIONS: Not separately specified.
+DISEASE DISSEMINATION: Nematode eggs persist in soil; female adults
+associate with root-knot formation; upon planting a susceptible host, larval
+forms invade the root and form galls, feeding through the vascular bundles
+to complete their life cycle.
+MANAGEMENT:
+- Fumigate soil with a nematicide such as Carbofuran/Furadan 3G or 5G.
+- Open up the soil soon after crop harvest.
+- Soil is safe for planting 2-3 weeks after fumigation.
+- Crop rotation with marigold (reduces nematode population in some
+  countries).
+
+--------------------------------------------------------------------------------
+CROP: Sugarcane
+DISEASE NAME: Pokkah Boeng
+DISEASE GROUP: Fungal
+CAUSAL ORGANISM: Fusarium moniliforme (anamorph); Gibberella fujikuroi
+(perfect stage)
+SYMPTOMS: Initial symptoms are chlorotic areas at the base of young leaves,
+followed by distortion (wrinkling/twisting) and shortening of affected
+leaves; in severe cases the stalk dies. Base of affected leaves often
+narrower than normal. As leaves mature, irregular reddish stripes/specks
+develop within chlorotic parts, sometimes forming lens-shaped holes with
+no definite arrangement. Reddish tissue may form ladder-like lesions with
+dark edges. Leaf sheaths may become chlorotic with irregular reddish
+necrotic areas. Infection may continue down the spindle into the stalk,
+producing dark reddish streaks through several internodes; internode
+lesions may show cross depressions (ladder-like appearance) that break
+through the rind surface. The causal fungi can also cause seedling blight,
+scorch, stalk rot, root rot, wilt, and stunting in various crops.
+FAVOURABLE CONDITIONS: A wet season followed by dry climatic conditions;
+sugarcane 3-7 months old and growing vigorously is most susceptible.
+DISEASE CYCLE / SPREAD: Mainly by airborne spores; dissemination via seed
+pieces occurs but is of little importance. Infection usually occurs through
+the spindle along the margin of a partially unfolded leaf; spores germinate
+and grow into inner spindle tissue, reaching the immature stem portion via
+vascular bundles; may pass through leaf sheath vascular bundles without
+entering surrounding tissue (ladder-like lesions in the sheath).
+MANAGEMENT:
+- Seldom serious enough to warrant control.
+- If control is desired, the only satisfactory measure is use of resistant
+  sugarcane cultivars.
