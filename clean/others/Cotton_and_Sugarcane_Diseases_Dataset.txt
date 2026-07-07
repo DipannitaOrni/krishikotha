@@ -1,0 +1,615 @@
+================================================================================
+DATASET: DISEASES OF COTTON AND SUGARCANE
+Fields per record: CROP | DISEASE NAME | DISEASE GROUP | CAUSAL ORGANISM |
+SYMPTOMS | FAVOURABLE CONDITIONS | DISEASE CYCLE / DISSEMINATION | MANAGEMENT
+================================================================================
+
+
+############################
+SECTION 1: DISEASES OF COTTON
+############################
+
+--------------------------------------------------------------------------------
+CROP: Cotton
+DISEASE NAME: Fusarium Wilt
+DISEASE GROUP: Fungal
+CAUSAL ORGANISM: Fusarium oxysporum f. sp. vasinfectum
+SYMPTOMS: Affects the crop at all stages. Earliest symptoms appear on seedlings
+as yellowing then browning of cotyledons; brown ring at base of petiole,
+followed by wilting and drying of seedlings. In young/grown plants, first
+symptom is yellowing of leaf edges and veins area, discoloration starting
+from margin and spreading to midrib. Leaves lose turgidity, turn brown, droop
+and drop off. Symptoms start from older leaves at the base and progress
+upward to branches and whole plant. Defoliation/wilting may be complete
+(only stem left standing) or partial. Taproot usually stunted. Browning/
+blackening of vascular tissue with black streaks extending to branches and
+lateral roots. In severe cases discoloration extends to stem, leaves and
+bolls. Transverse section shows discoloured ring in woody stem tissue.
+Late-season infected plants are stunted with fewer, small bolls that open
+prematurely.
+FAVOURABLE CONDITIONS: Soil temperature 20-30°C; hot and dry periods followed
+by rains; heavy black soils with alkaline reaction; increased nitrogen and
+phosphatic fertilizer doses; wounds caused by nematode (Meloidogyne
+incognita) and grubs of Ash weevil (Myllocerus pustulatus).
+DISEASE CYCLE: Fungus survives in soil as saprophyte for many years;
+chlamydospores act as resting spores. Pathogen is both externally and
+internally seed-borne. Primary infection mainly from dormant hyphae and
+chlamydospores in soil. Secondary spread through conidia and chlamydospores
+disseminated by wind and irrigation water.
+MANAGEMENT:
+- Treat acid delinted seeds with Carboxin or Carbendazim at 2 g/kg.
+- Remove and burn infected plant debris after deep summer ploughing (June-July).
+- Apply increased doses of potash with balanced nitrogen and phosphorus.
+- Apply heavy doses of farm yard manure/organic manures; mixed cropping with
+  non-host plants.
+- Grow disease-resistant varieties.
+- Spot drench with Carbendazim 1 g/litre.
+
+--------------------------------------------------------------------------------
+CROP: Cotton
+DISEASE NAME: Verticillium Wilt
+DISEASE GROUP: Fungal
+CAUSAL ORGANISM: Verticillium albo-atrum
+SYMPTOMS: Seen when crop is in squares and bolls; early-infected plants
+severely stunted. First symptom is bronzing of veins, followed by
+interveinal chlorosis and yellowing of leaves. Leaves dry giving a scorched
+appearance; drying of leaf margins and interveinal areas gives "Tiger
+stripe"/"Tiger claw" appearance. Affected leaves fall, leaving branches
+barren. Infected stem/roots show pinkish discoloration of woody tissue,
+tapering into longitudinal streaks. Infected leaves show brown spots at
+petiole ends. Affected plants bear few smaller bolls with immature lint.
+FAVOURABLE CONDITIONS: Not separately specified (occurs during squares/boll
+stage of crop growth).
+DISEASE CYCLE: Fungus also infects brinjal, chilli, tobacco, etc. Survives
+in infected plant debris and soil as micro sclerotia up to 14 years. Seeds
+carry micro sclerotia and conidia in the fuzz. Primary spread through micro
+sclerotia/conidia in soil. Secondary spread through root-to-root contact and
+dissemination of infected plant parts via irrigation water and implements.
+MANAGEMENT:
+- Treat delinted seeds with Carboxin or Carbendazim at 2 g/kg.
+- Remove and destroy infected plant debris after deep summer ploughing
+  (June-July).
+- Apply heavy doses of farm yard manure or compost at 100 t/ha.
+- Crop rotation with paddy or chrysanthemum for 2-3 years.
+- Spot drench with 0.05 g/l benomyl or carbendazim 500 mg/l.
+- Grow disease-resistant varieties.
+
+--------------------------------------------------------------------------------
+CROP: Cotton
+DISEASE NAME: Root Rot
+DISEASE GROUP: Fungal
+CAUSAL ORGANISM: Rhizoctonia solani
+SYMPTOMS: Causes three symptom types - seedling disease, sore-shin, and root
+rot. Germinating/1-2 week old seedlings attacked at hypocotyl causing black
+lesions, stem girdling and death (large gaps in field). Sore-shin stage
+(4-6 week old plants): dark reddish-brown cankers on stems near soil
+surface, turning black; plant breaks at collar region, leaves dry and
+plant dies. Typical root rot appears at maturity: sudden and complete
+wilting of plants in patches, leaves droop and die within a day or two.
+Roots show rotting of entire root system except tap root/few laterals.
+Bark shreds and extends above ground; woody portions may become black and
+brittle. Numerous dark brown sclerotia seen on wood/shredded bark.
+FAVOURABLE CONDITIONS: Dry weather following heavy rains; high soil
+temperature (35-39°C); cultivation of favourable hosts like vegetables,
+oil seeds and legumes preceding cotton; wounds from ash weevil grubs and
+nematodes.
+DISEASE CYCLE: Mainly soil-borne; pathogen survives in soil as sclerotia for
+several years. Spread through sclerotia disseminated by irrigation water,
+implements, and other cultural operations.
+MANAGEMENT:
+- Treat seeds with Trichoderma viride @ 4 g/kg of seed.
+- Spot drench with 0.1% Carbendazim.
+- Apply farm yard manure at 10 t/ha or neem cake at 150 kg/ha.
+- Adjust sowing time - early sowing (first week of April) or late sowing
+  (last week of June) to escape high soil temperature.
+
+--------------------------------------------------------------------------------
+CROP: Cotton
+DISEASE NAME: Anthracnose
+DISEASE GROUP: Fungal
+CAUSAL ORGANISM: Colletotrichum gossypii (anamorph); Glomerella gossypii
+SYMPTOMS: Infects seedlings, producing small reddish circular spots on
+cotyledons and primary leaves. Lesions develop on collar region; stem may
+be girdled causing seedling to wilt and die. In mature plants, fungus
+attacks stem causing splitting and shredding of bark. Most common symptom
+is boll spotting: small water-soaked, circular, reddish-brown depressed
+spots on bolls. Lint stained yellow/brown, becomes solid brittle fibre
+mass. Infected bolls cease growth, burst, and dry up prematurely.
+FAVOURABLE CONDITIONS: Prolonged rainfall at boll formation time; close
+planting.
+DISEASE CYCLE: Survives as dormant mycelium in seed or as conidia on seed
+surface for about a year. Perpetuates on rotten bolls and plant debris in
+soil. Secondary spread by air-borne conidia. Survives on weed hosts
+Aristolochia bractiata and Hibiscus diversifolius.
+MANAGEMENT:
+- Treat delinted seeds with Carbendazim, Carboxin, Thiram or Captan at 2 g/kg.
+- Remove and burn infected plant debris and bolls.
+- Rogue out weed hosts.
+- Spray at boll formation with Mancozeb 2 kg/ha, or Copper oxychloride
+  2.5 kg/ha, or Carbendazim 500 g/ha.
+
+--------------------------------------------------------------------------------
+CROP: Cotton
+DISEASE NAME: Boll Rot
+DISEASE GROUP: Fungal complex
+CAUSAL ORGANISM: Fusarium moniliforme, Colletotrichum gossypii, Aspergillus
+flavus, A. niger, Rhizopus nigricans, Nematospora nagpuri, Botryodiplodia sp.
+(also listed elsewhere with Ascochyta gossypii, Diplodia gossypina,
+Phytophthora spp., Rhizoctonia solani)
+SYMPTOMS: Begins as small brown/black dots that enlarge to cover entire
+bolls. Infection spreads to inner tissues; seeds and lint rot. Bolls never
+burst open and fall off prematurely. Sometimes rotting is external (pericarp
+rots, internal tissues remain free). Large numbers of fungal fruiting
+bodies observed on affected bolls, depending on the fungi involved.
+FAVOURABLE CONDITIONS: Heavy rainfall during square and boll formation;
+wounds caused by insects, especially red cotton bug (Dysdercus cingulata);
+close spacing and excessive nitrogen application.
+DISEASE CYCLE: Fungi survive in infected bolls in soil. Insects mainly help
+spread the disease by creating entry wounds. Secondary spread also via
+air-borne conidia.
+MANAGEMENT:
+- Adopt optimum spacing.
+- Apply recommended fertilizer doses.
+- Spray Copper oxychloride 2.5 kg/ha with a bollworm insecticide from the
+  45th day at 15-day intervals (2-3 sprays).
+
+--------------------------------------------------------------------------------
+CROP: Cotton
+DISEASE NAME: Leaf Blight
+DISEASE GROUP: Fungal
+CAUSAL ORGANISM: Alternaria macrospora
+SYMPTOMS: Occurs at all stages, more severe at 45-60 days old. Small,
+plate-to-brown, irregular/round spots (0.5-6 mm diameter) with a central
+lesion surrounded by concentric rings. Spots coalesce into blighted areas;
+affected leaves become brittle and fall off. Stem lesions sometimes seen;
+in severe cases spots appear on bracts and bolls.
+FAVOURABLE CONDITIONS: High humidity; intermittent rains; moderate
+temperature of 25-28°C.
+DISEASE CYCLE: Survives in dead leaves as dormant mycelium. Primary spread
+through irrigation water; secondary spread mainly by airborne conidia.
+MANAGEMENT:
+- Remove and destroy infected plant residues.
+- Spray Mancozeb 2 kg/ha or Copper oxychloride 2 kg/ha at disease onset.
+- Give 4-5 sprays at 15-day intervals.
+
+--------------------------------------------------------------------------------
+CROP: Cotton
+DISEASE NAME: Bacterial Blight
+DISEASE GROUP: Bacterial
+CAUSAL ORGANISM: Xanthomonas campestris pv. malvacearum
+SYMPTOMS: Attacks all stages from seed to harvest, with five common phases:
+1) Seedling blight - small water-soaked, circular/irregular lesions on
+   cotyledons; infection spreads via petiole to stem causing withering and
+   death of seedlings.
+2) Angular leaf spot - small dark green water-soaked areas on lower leaf
+   surface, enlarging into angular spots restricted by veins; turn reddish
+   brown with age; spreads to veins/veinlets.
+3) Vein blight / vein necrosis / black vein - blackening of veins/veinlets
+   ("blighting" appearance); bacterial oozes form crusts/scales on lower
+   leaf surface; leaves crinkle, twist inward, wither; spreads to petiole
+   causing defoliation.
+4) Black arm - dark brown to black lesions on stem/fruiting branches,
+   girdling stem and branches; premature leaf drop, stem cracking, gummosis,
+   stem breakage, hanging as dry black twig ("black arm" symptom).
+5) Square rot / Boll rot - water-soaked lesions on bolls turning dark
+   black, sunken, irregular; spreads to entire boll causing shedding;
+   premature bursting of mature bolls; lint stained yellow by bacterial
+   ooze, losing market value; seeds infected, reduced size/viability.
+FAVOURABLE CONDITIONS: Optimum soil temperature 28°C; high atmospheric
+temperature 30-40°C; relative humidity 85%; early sowing; delayed thinning;
+poor tillage; late irrigation; potassium deficiency in soil; rain followed
+by bright sunshine during October-November.
+DISEASE CYCLE: Survives on infected, dried plant debris in soil for
+several years. Seed-borne, persisting as slimy mass on seed coat fuzz.
+Also attacks Thumbergia thespesioides, Eriodendron anfructuosum, and
+Jatropha curcus. Primary infection mainly from seed-borne bacterium.
+Secondary spread via wind, wind-blown rain splash, irrigation water,
+insects, and implements.
+MANAGEMENT:
+- Delint cotton seeds with concentrated sulphuric acid at 100 ml/kg; treat
+  delinted seeds with carboxin/oxycarboxin at 2 g/kg, or soak in 1000 ppm
+  Streptomycin sulphate overnight.
+- Remove and destroy infected plant debris.
+- Rogue out volunteer cotton plants and weed hosts.
+- Follow crop rotation with non-host crops.
+- Early thinning and early earthing up with potash.
+- Grow resistant varieties.
+- Spray Streptomycin sulphate + Tetracycline mixture 100 g with Copper
+  oxychloride at 1.25 kg/ha.
+
+--------------------------------------------------------------------------------
+CROP: Cotton
+DISEASE NAME: Leaf Curl Disease
+DISEASE GROUP: Viral
+CAUSAL ORGANISM: Cotton Leaf Curl Virus (CLCuV)
+SYMPTOMS: Downward and upward curling of leaves, thickening of veins, and
+enation (outgrowth) on the underside of leaves. In severe infection all
+leaves are curled and growth is retarded; boll-bearing capacity is reduced.
+FAVOURABLE CONDITIONS: Not separately specified; linked to whitefly vector
+population buildup.
+DISEASE CYCLE: Primary source is the viruliferous whitefly vector Bemisia
+tabaci. Alternate and cultivated hosts serve as virus reservoirs throughout
+the year.
+MANAGEMENT:
+- Time planting date to avoid peak vector population.
+- Eliminate volunteer perennial cotton and alternate hosts including
+  malvaceous weeds like wild okra.
+- Foliar application of neem leaf extract and 1% neem oil (achieved ~80%
+  reduction in virus transmission in trials).
+- Vector management using granular systemic insecticides.
+
+--------------------------------------------------------------------------------
+The following cotton diseases are listed (causal organism only, no detailed
+symptom/management text provided in source document):
+
+CROP: Cotton | DISEASE: Ascochyta Blight | GROUP: Fungal
+CAUSAL ORGANISM: Ascochyta gossypii
+
+CROP: Cotton | DISEASE: Charcoal Rot | GROUP: Fungal
+CAUSAL ORGANISM: Macrophomina phaseolina
+
+CROP: Cotton | DISEASE: Leaf Spot (complex) | GROUP: Fungal
+CAUSAL ORGANISM: Alternaria macrospora, Alternaria alternata, Cercospora
+gossypina (teleomorph Mycosphaerella gossypina), Bipolaris spicifera,
+Myrothecium roridum, Stemphylium solani
+
+CROP: Cotton | DISEASE: Lint Contamination | GROUP: Fungal
+CAUSAL ORGANISM: Aspergillus flavus
+
+CROP: Cotton | DISEASE: Tropical Cotton Rust | GROUP: Fungal
+CAUSAL ORGANISM: Phakopsora gossypii
+
+CROP: Cotton | DISEASE: Sclerotium Stem and Root Rot (Southern Blight) |
+GROUP: Fungal
+CAUSAL ORGANISM: Sclerotium rolfsii
+
+CROP: Cotton | DISEASE: Seedling Disease Complex | GROUP: Fungal
+CAUSAL ORGANISM: Colletotrichum gossypii, Fusarium spp., Pythium spp.,
+Rhizoctonia solani
+
+CROP: Cotton | DISEASE: Crown Gall | GROUP: Bacterial
+CAUSAL ORGANISM: Agrobacterium tumefaciens
+
+CROP: Cotton | DISEASE: Lint Degradation | GROUP: Bacterial
+CAUSAL ORGANISM: Erwinia herbicola
+
+CROP: Cotton | DISEASE: Root-Knot Nematode | GROUP: Nemic
+CAUSAL ORGANISM: Meloidogyne incognita
+
+
+###############################
+SECTION 2: DISEASES OF SUGARCANE
+###############################
+
+--------------------------------------------------------------------------------
+CROP: Sugarcane
+DISEASE NAME: Red Rot
+DISEASE GROUP: Fungal
+CAUSAL ORGANISM: Colletotrichum falcatum (anamorph); Glomerella
+tucumanensis (perfect stage)
+SYMPTOMS: Recognized when canes near maturity. First symptom is
+discolouration of young leaves - typically 3rd/4th leaf from top turns
+paler and droops slightly; tip dries and withers along the margin, central
+area stays green. Leaves show dark red lesions on the mid-rib that
+elongate and turn blood-red with dark margins; mature lesions have a
+straw-coloured centre with black dot-like acervuli. Split canes give off
+an alcoholic smell (fermentation); internal tissue is red, interrupted by
+whitish patches in internodal tissue. Reddening most intense in vascular
+bundles, extending to pith. Pith eventually dries, rind shrinks, canes
+become lighter and break easily.
+FAVOURABLE CONDITIONS: Monoculturing of sugarcane; successive ratoon
+cropping; water-logged conditions and insect-caused injuries.
+DISEASE CYCLE / PERPETUATION: Perpetuated year to year via infected planting
+setts and fungus surviving on diseased canes/ratoon crop. Fungus may
+persist in soil via diseased clumps/dry leaves left after harvest. Primary
+infection mainly from infected setts; secondary infection via spores on
+affected canes and leaf midribs. Secondary spread via irrigation water,
+tools/implements, wind-borne inocula. Survives on collateral hosts Sorghum
+vulgare, S. halepense, Saccharum spontaneum. Conidia invade leaves through
+wounds including midrib splitting. Stem infection via borer tunnels, root
+primordial, and seed cuttings; soil-borne fungus may enter healthy setts
+through cut ends.
+MANAGEMENT:
+- Cultivate resistant varieties (e.g., Iswardi 2/54, Iswardi-16,
+  Iswardi-17).
+- Plant only healthy setts.
+- Hot water treatment of setts at 52°C for 30 minutes.
+- Dip setts momentarily in Aratan-6 solution (1/2 lb per 23 gallons water)
+  before planting.
+- Dip cut ends in coal tar before planting.
+- Strictly avoid ratooning infected fields.
+- Destroy plant debris and diseased material by burning after harvest.
+- Control borers and improve field drainage.
+
+--------------------------------------------------------------------------------
+CROP: Sugarcane
+DISEASE NAME: Stem Canker / Wilt
+DISEASE GROUP: Fungal
+CAUSAL ORGANISM: Cephalosporium sacchari (= Fusarium sacchari)
+SYMPTOMS: First symptoms appear only after plant has grown 4-5 months.
+Leaves of affected clumps gradually turn yellow and dry, causing wilting of
+the cane. Longitudinal splitting reveals pith discoloured purple or dark
+red near the node. A characteristic disagreeable odour is associated with
+diseased canes. Cottony white mycelium may be seen in the pith region.
+FAVOURABLE CONDITIONS: High day temperature (30-35°C); low humidity
+(50-60%); low soil moisture and alkaline soils; excess nitrogenous
+fertilizer doses.
+DISEASE CYCLE / DISSEMINATION: Fungus remains in diseased canes/plant
+debris left in fields after harvest; ratoon crop helps fungus survive.
+Transmitted via infected seed setts, air, rain water, and irrigation water.
+Penetrates cane base and below-soil region through wounds. Can survive in
+soil as saprophyte for 2-3 years; favoured by near-neutral/alkaline soils.
+MANAGEMENT:
+- Plant disease-free setts and use resistant varieties.
+- Avoid alkaline soils for cultivation.
+- Destroy cane plant debris (controls disease in alkali soils).
+- Dip setts in Bavistin fungicide solution (0.1%) for 30 minutes before
+  planting.
+- Discourage ratooning of diseased crop.
+
+--------------------------------------------------------------------------------
+CROP: Sugarcane
+DISEASE NAME: White Leaf Disease
+DISEASE GROUP: MLO (Mycoplasma-like organism / Phytoplasma)
+CAUSAL ORGANISM: Phytoplasma (MLO)
+SYMPTOMS: Initially a single white/cream line parallel to the midrib.
+Later, several straight white-to-light-green-to-yellow stripes develop
+parallel to the midrib along the entire leaf length (rarely onto upper leaf
+sheath). Mottled pattern of normal/light-green dot, spot, streak or patch
+islands on a white background, varying in size/shape. Plant vigour
+decreases as disease develops; stunted stalks, absence of side shoots on
+upper stalk, and abnormal tillering.
+FAVOURABLE CONDITIONS: Not specified in source.
+DISEASE CYCLE: Not specified in source (phytoplasma diseases are typically
+spread by leafhopper vectors and infected planting material).
+MANAGEMENT: Not specified in source document.
+
+--------------------------------------------------------------------------------
+CROP: Sugarcane
+DISEASE NAME: Whip Smut
+DISEASE GROUP: Fungal
+CAUSAL ORGANISM: Ustilago scitaminea
+SYMPTOMS: Affected canes produce long, black, whip-like, coiled/curved
+shoots covered with a thin silvery membrane containing fungal spore masses.
+Smutted shoots arise from the growing point of the cane. At maturity, the
+whip ruptures, releasing millions of tiny black smut spores (teliospores)
+dispersed by wind, contaminating soil and standing crop. Infected plants
+may remain stunted with many tillers bearing small, narrow leaves.
+FAVOURABLE CONDITIONS: Monoculturing of sugarcane; continuous ratooning and
+dry weather during the tillering stage.
+DISEASE CYCLE: Teliospores may survive in soil up to 10 years; spores also
+present in infected plant material in soil, and smut spores/dormant
+mycelium present in/on infected setts. Primary spread via diseased
+seed-pieces (setts); soil-borne spores also spread via rain/irrigation
+water. Secondary spread mainly through smut spores from whips, aided by air
+currents. Survives on collateral hosts Saccharum spontaneum, S. robustum,
+Sorghum vulgare, Imperata arundinacea, Cyperus dilatatus.
+MANAGEMENT:
+- Do not use setts from smutted canes for planting.
+- Rogue out and burn smutted plants before spore release.
+- Encourage use of resistant varieties.
+- Avoid ratooning infected fields.
+- 95% moist hot air at 54°C for 4 hours, or hot water treatment of setts at
+  50°C for 3 hours, to eliminate internal infection.
+- Disinfect seed-setts in 0.1% mercuric chloride or formaline solution for
+  5 minutes, followed by 2 hours covered under a moist cloth (or other
+  effective market chemicals).
+- Crop rotation.
+
+--------------------------------------------------------------------------------
+CROP: Sugarcane
+DISEASE NAME: Ratoon Stunting Disease (RSD)
+DISEASE GROUP: Bacterial (RLO - Rickettsia-like organism)
+CAUSAL ORGANISM: Clavibacter xyli
+SYMPTOMS: No specific external symptoms typical of most plant diseases.
+External expression includes stunted growth, reduced tillering, thin
+stalks with shortened internodes, and yellowish foliage. Longitudinal
+slicing of a diseased stalk reveals discoloration at the node of mature
+canes in the shape of dots or commas, and general pink colour in the nodes
+of very young canes. Colour range includes yellow, orange, pink, red, and
+reddish brown.
+FAVOURABLE CONDITIONS: Not separately specified; spread favoured by use of
+contaminated cutting tools and infected planting material.
+DISEASE CYCLE / DISSEMINATION: Spreads mainly through planting material;
+setts should be selected from healthy plants. Also spread via knives,
+sickles, or agricultural equipment used in the cane field.
+MANAGEMENT:
+- Adequate irrigation, particularly at early growth stages (plant crops)
+  and in less susceptible varieties.
+- Provide healthy planting material.
+- Use resistant varieties.
+- Hot water treatment of setts at 50°C for 3 hours.
+- Sterilize cane knives with 20% "lysol" solution.
+- Establish a clean seed nursery as a source of planting material.
+
+--------------------------------------------------------------------------------
+CROP: Sugarcane
+DISEASE NAME: Sett Rot / Pineapple Disease
+DISEASE GROUP: Fungal
+CAUSAL ORGANISM: Ceratocystis paradoxa
+SYMPTOMS: Primarily affects setts, usually 2-3 weeks after planting.
+Diseased setts may rot before germination, or shoots may die after reaching
+6-12 inches height. Affected tissues first turn reddish, then brownish
+black, with sett contents rotting. Severely affected setts show internodal
+cavities covered with mycelium and abundant spores. A characteristic
+pineapple smell is associated with the rotting (hence the name). Surviving
+infected shoots are very much stunted and chlorotic.
+FAVOURABLE CONDITIONS: Poorly drained fields; heavy clay soils; temperature
+of 25-30°C; prolonged rainfall after planting.
+DISEASE CYCLE: Not separately detailed beyond symptom description; spreads
+via infected setts and soil under favourable moist conditions.
+MANAGEMENT:
+- Obtain healthy setts from a disease-free field.
+- Soak setts in 0.05% Carbendazim for 15 minutes before planting to protect
+  cut ends.
+- Pretreat setts with hot water to stimulate bud germination and hasten
+  growth, helping plants outcompete the pathogen.
+- Combine field sanitation with chemical pre-treatment of setts.
+- Provide adequate drainage during rainy seasons.
+
+--------------------------------------------------------------------------------
+CROP: Sugarcane
+DISEASE NAME: Leaf Scald
+DISEASE GROUP: Bacterial
+CAUSAL ORGANISM: Xanthomonas albilineans
+SYMPTOMS: Most typical symptom is a white pencil-line streak (1-2 mm wide)
+on the leaf, extending from the midrib to the leaf margin, running parallel
+to veins. As disease progresses, necrosis develops from the leaf tip or
+margin. On mature stalks, side shoots appear from each node at the stalk
+base and progress upward, usually showing scalding and/or white pencil
+lines. Internally, affected stalks may show bright-to-dark red streaks from
+vascular bundle necrosis. Acute phase: sudden wilting and death of mature
+stalks, often without prior symptom expression.
+FAVOURABLE CONDITIONS: Not separately specified in source.
+DISEASE CYCLE: Not separately detailed; spread by infected setts and
+mechanical transmission via cutting tools.
+MANAGEMENT:
+- Prevention and replacement of susceptible varieties with resistant ones
+  (best control).
+- Long hot-water treatment of setts to kill the pathogen.
+- Sterilize all cane cutting knives, including mechanical harvester blades,
+  when coming from suspect fields, to prevent mechanical spread.
+
+--------------------------------------------------------------------------------
+CROP: Sugarcane
+DISEASE NAME: Mosaic
+DISEASE GROUP: Viral
+CAUSAL ORGANISM: Sugarcane Mosaic Virus (SCMV)
+SYMPTOMS: Appears more prominently on the basal portion of younger foliage
+as chlorotic/yellowish stripes alternating with normal green leaf portions.
+As infection becomes severe, yellow stripes appear on the leaf sheath and
+stalks. Elongated necrotic lesions develop on stalks, causing stem
+splitting. Necrotic lesions also develop on internodes; entire plant
+becomes stunted and chlorotic.
+FAVOURABLE CONDITIONS: Not separately specified.
+DISSEMINATION: Transmitted through mosaic-infected setts and by an aphid
+vector. Alternate hosts: maize and sorghum.
+MANAGEMENT:
+- Dig out and destroy infected plants by burning.
+- Rogue out diseased clumps periodically.
+- Plant virus-free setts; avoid ratooning diseased crop.
+- Aerated Steam Therapy (AST) at 56°C for 3 hours for setts before
+  planting.
+- Grow resistant varieties.
+- Timely control of the insect (aphid) vector.
+
+--------------------------------------------------------------------------------
+CROP: Sugarcane
+DISEASE NAME: Red-Stripe & Top Rot
+DISEASE GROUP: Bacterial
+CAUSAL ORGANISM: Pseudomonas rubrilineans
+SYMPTOMS: Red stripe: chlorotic lesions carrying dark red stripes on
+leaves, either distributed over the blade or concentrated in the middle;
+several may coalesce to cover large leaf areas; initially water-soaked
+green stripes, turning dark red on both leaf surfaces. In severe infection,
+rotting commences at the tip and spreads downward, causing shoot/top rot.
+Splitting affected canes downward reveals vascular bundles exuding foul-
+smelling yellowish gum, with dark red tissue discoloration.
+FAVOURABLE CONDITIONS: Continuous ratooning; prolonged rainy weather with
+low temperature (25°C).
+DISEASE CYCLE / DISSEMINATION: Spreads in the field via wind, rain, and
+cutting. Bacterial cells falling on host plants enter through natural
+openings or wounds and establish in various tissues, including the xylem.
+MANAGEMENT:
+- Difficult disease to control.
+- Remove and burn affected plants as soon as noticed (systematic
+  destruction reduces disease incidence).
+- Grow resistant varieties (best method of control).
+- Use disease-free certified setts.
+
+--------------------------------------------------------------------------------
+CROP: Sugarcane
+DISEASE NAME: Root-Knot Disease
+DISEASE GROUP: Nematode
+CAUSAL ORGANISM: Meloidogyne javanica
+SYMPTOMS: Diseased plants are chlorotic and stunted; yellow stripes show on
+young leaves while older leaves appear healthy. Roots, when dug out, are
+found knotted; nematodes are found inside the knots, feeding on the plant
+juice; in some cases plants die.
+FAVOURABLE CONDITIONS: Not separately specified.
+DISEASE DISSEMINATION: Nematode eggs persist in soil; female adults
+associate with root-knot formation; upon planting a susceptible host, larval
+forms invade the root and form galls, feeding through the vascular bundles
+to complete their life cycle.
+MANAGEMENT:
+- Fumigate soil with a nematicide such as Carbofuran/Furadan 3G or 5G.
+- Open up the soil soon after crop harvest.
+- Soil is safe for planting 2-3 weeks after fumigation.
+- Crop rotation with marigold (reduces nematode population in some
+  countries).
+
+--------------------------------------------------------------------------------
+CROP: Sugarcane
+DISEASE NAME: Pokkah Boeng
+DISEASE GROUP: Fungal
+CAUSAL ORGANISM: Fusarium moniliforme (anamorph); Gibberella fujikuroi
+(perfect stage)
+SYMPTOMS: Initial symptoms are chlorotic areas at the base of young leaves,
+followed by distortion (wrinkling/twisting) and shortening of affected
+leaves; in severe cases the stalk dies. Base of affected leaves often
+narrower than normal. As leaves mature, irregular reddish stripes/specks
+develop within chlorotic parts, sometimes forming lens-shaped holes with
+no definite arrangement. Reddish tissue may form ladder-like lesions with
+dark edges. Leaf sheaths may become chlorotic with irregular reddish
+necrotic areas. Infection may continue down the spindle into the stalk,
+producing dark reddish streaks through several internodes; internode
+lesions may show cross depressions (ladder-like appearance) that break
+through the rind surface. The causal fungi can also cause seedling blight,
+scorch, stalk rot, root rot, wilt, and stunting in various crops.
+FAVOURABLE CONDITIONS: A wet season followed by dry climatic conditions;
+sugarcane 3-7 months old and growing vigorously is most susceptible.
+DISEASE CYCLE / SPREAD: Mainly by airborne spores; dissemination via seed
+pieces occurs but is of little importance. Infection usually occurs through
+the spindle along the margin of a partially unfolded leaf; spores germinate
+and grow into inner spindle tissue, reaching the immature stem portion via
+vascular bundles; may pass through leaf sheath vascular bundles without
+entering surrounding tissue (ladder-like lesions in the sheath).
+MANAGEMENT:
+- Seldom serious enough to warrant control.
+- If control is desired, the only satisfactory measure is use of resistant
+  sugarcane cultivars.
+
+--------------------------------------------------------------------------------
+The following sugarcane diseases are listed (causal organism only, no
+detailed symptom/management text provided in source document):
+
+CROP: Sugarcane | DISEASE: Brown Spot | GROUP: Fungal
+CAUSAL ORGANISM: Cercospora longipes
+
+CROP: Sugarcane | DISEASE: Yellow Spot | GROUP: Fungal
+CAUSAL ORGANISM: Cercospora koepkei
+
+CROP: Sugarcane | DISEASE: Downy Mildew | GROUP: Fungal
+CAUSAL ORGANISM: Sclerospora sacchari
+
+CROP: Sugarcane | DISEASE: Eye Spot | GROUP: Fungal
+CAUSAL ORGANISM: Bipolaris sacchari
+
+CROP: Sugarcane | DISEASE: Ring Spot | GROUP: Fungal
+CAUSAL ORGANISM: Leptosphaeria sacchari
+
+CROP: Sugarcane | DISEASE: Root Rots | GROUP: Fungal
+CAUSAL ORGANISM: Pythium sp., Fusarium sp., Rhizoctonia sp.
+
+CROP: Sugarcane | DISEASE: Common Rust | GROUP: Fungal
+CAUSAL ORGANISM: Puccinia melanocephala
+
+CROP: Sugarcane | DISEASE: Gumming Disease | GROUP: Bacterial
+CAUSAL ORGANISM: Xanthomonas campestris pv. vasculorum
+
+CROP: Sugarcane | DISEASE: Grassy Shoot | GROUP: MLO (Phytoplasma)
+CAUSAL ORGANISM: Phytoplasma (Mycoplasma-like organism)
+
+CROP: Sugarcane | DISEASE: Phanerogamic Parasitic Plant Disease |
+GROUP: Parasitic plant
+CAUSAL ORGANISM: Striga densiflora
+
+CROP: Sugarcane | DISEASE: Lesion Nematode | GROUP: Nematode
+CAUSAL ORGANISM: Pratylenchus spp.
+
+================================================================================
+END OF DATASET
+Source: "Diseases of Cotton" and "Diseases of Sugarcane" reference documents.
+Note: Records marked "not specified in source" indicate the original
+documents did not provide that detail for the given disease.
+================================================================================
