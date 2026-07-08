@@ -1,4 +1,5 @@
 
+
 <!-- Replace this with your project logo/banner -->
 <p align="center">
   <img width="1186" height="411" alt="Screenshot 2026-07-08 232455" src="https://github.com/user-attachments/assets/aa9220b5-3c03-442b-b66e-8449af8ce1b2" />
@@ -62,11 +63,13 @@ KrishiKotha closes that gap by never answering from the model's general knowledg
 
 <p align="center">
   <img src="./assets/screenshot-home.png" alt="KrishiKotha home screen" width="45%"/>
-  <img src="./assets/screenshot-voice-qa.png" alt="Voice Q&A screen" width="45%"/>
+  <img width="1877" height="850" alt="Screenshot 2026-07-08 232252" src="https://github.com/user-attachments/assets/9b825040-defd-41a0-86fe-77303728ed81" />
+
 </p>
 <p align="center">
-  <img src="./assets/screenshot-photo-diagnosis.png" alt="Photo diagnosis screen" width="45%"/>
-  <img src="./assets/screenshot-seasonal-advisory.png" alt="Seasonal advisory screen" width="45%"/>
+ <img width="737" height="877" alt="Screenshot 2026-07-08 232330" src="https://github.com/user-attachments/assets/14033913-6270-4742-8306-859ceaecf3f0" />
+ <img width="1327" height="772" alt="Screenshot 2026-07-08 232429" src="https://github.com/user-attachments/assets/92f325d3-6f49-44dd-bec4-64ee40c2a9f9" />
+
 </p>
 
 <!-- Optional: embed a short demo GIF or video -->
