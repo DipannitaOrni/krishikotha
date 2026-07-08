@@ -1,6 +1,7 @@
+
 <!-- Replace this with your project logo/banner -->
 <p align="center">
-  <img src="./assets/krishikotha-banner.png" alt="KrishiKotha banner" width="600"/>
+  <img width="1186" height="411" alt="Screenshot 2026-07-08 232455" src="https://github.com/user-attachments/assets/aa9220b5-3c03-442b-b66e-8449af8ce1b2" />
 </p>
 
 # KrishiKotha — Voice-First AI Farm Advisor for Bangladeshi Farmers
