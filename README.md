@@ -1,5 +1,3 @@
-
-
 <!-- Replace this with your project logo/banner -->
 <p align="center">
   <img width="1186" height="411" alt="Screenshot 2026-07-08 232455" src="https://github.com/user-attachments/assets/aa9220b5-3c03-442b-b66e-8449af8ce1b2" />
@@ -7,9 +5,7 @@
 
 # KrishiKotha — Voice-First AI Farm Advisor for Bangladeshi Farmers
 
-> A document-grounded, voice-first AI companion for smallholder farmers in Bangladesh — answering crop questions in Bangla by voice, text, or photo, using only verified DAE / BARI / BRRI reference material, and refusing to guess when it doesn't know.
-
-**Event:** SciBlitz AI Challenge 2026 · Track D — Open Innovation · IEEE Student Branch, CUET
+> A document-grounded, voice-first AI companion for smallholder farmers in Bangladesh - answering crop questions in Bangla by voice, text, or photo, using only verified DAE / BARI / BRRI reference material, and refusing to guess when it doesn't know.
 
 <!-- Optional: add a live demo link or concept video once available -->
 <!-- **Live Demo:** [link] | **Demo video:** [link] -->
@@ -26,7 +22,7 @@
 ## Table of Contents
 
 - [What is KrishiKotha?](#what-is-krishikotha)
-- [Screenshots](#screenshots)
+- [Homescreen](#homescreen)
 - [Key Features](#key-features)
 - [System Architecture](#system-architecture)
 - [Tech Stack](#tech-stack)
@@ -36,7 +32,6 @@
 - [Getting Started](#getting-started)
 - [Limitations](#limitations)
 - [Future Work](#future-work)
-- [Team](#team)
 
 ---
 
@@ -50,7 +45,7 @@ KrishiKotha closes that gap by never answering from the model's general knowledg
 
 ---
 
-## Screenshots
+## Homescreen
 
 <!--
   Add your app screenshots here. Suggested shots:
@@ -62,14 +57,7 @@ KrishiKotha closes that gap by never answering from the model's general knowledg
 -->
 
 <p align="center">
-  <img src="./assets/screenshot-home.png" alt="KrishiKotha home screen" width="45%"/>
-  <img width="1877" height="850" alt="Screenshot 2026-07-08 232252" src="https://github.com/user-attachments/assets/9b825040-defd-41a0-86fe-77303728ed81" />
-
-</p>
-<p align="center">
- <img width="737" height="877" alt="Screenshot 2026-07-08 232330" src="https://github.com/user-attachments/assets/14033913-6270-4742-8306-859ceaecf3f0" />
- <img width="1327" height="772" alt="Screenshot 2026-07-08 232429" src="https://github.com/user-attachments/assets/92f325d3-6f49-44dd-bec4-64ee40c2a9f9" />
-
+  <img width="1912" height="843" alt="Screenshot 2026-07-08 231851" src="https://github.com/user-attachments/assets/77428fc8-e6e3-4058-aa4a-8d6e88c68d9a" />
 </p>
 
 <!-- Optional: embed a short demo GIF or video -->
@@ -128,7 +116,7 @@ Farmer Input (Voice / Text / Photo)
 <!-- Optional: swap the ASCII diagram above for an exported image -->
 <!-- ![System architecture](./assets/architecture-diagram.png) -->
 
-**Reference material:** ~18 curated DAE / BARI / BRRI disease & pest documents, spanning 10 crops.
+**Reference material:** ~24 curated DAE / BARI / BRRI disease & pest documents, spanning many crops.
 
 ---
 
@@ -143,7 +131,7 @@ Farmer Input (Voice / Text / Photo)
 | Text-to-Speech          | gTTS (Google Text-to-Speech)                                       |
 | Document Grounding      | Keyword-based crop/document matching → direct context injection    |
 | Conversation Memory     | Streamlit session state (session-scoped, no login)                 |
-| Reference Sources       | DAE, BARI, BRRI — ~18 documents across 10 crops                    |
+| Reference Sources       | DAE, BARI, BRRI — ~24 documents across many crops                    |
 
 ---
 
@@ -151,7 +139,7 @@ Farmer Input (Voice / Text / Photo)
 
 Rather than letting the model answer from general pretraining knowledge — which risks confidently wrong, non-localized, or fabricated advice — KrishiKotha grounds every answer in real reference material.
 
-The team collected roughly **18 reference documents** covering common diseases and pests across **ten crops** (rice, potato, jute, wheat, maize, tomato, beans, lemon, mustard, and tobacco), sourced from DAE, BARI, and BRRI, several in Bangla.
+The team collected roughly **24 reference documents** covering common diseases and pests across **many crops** (rice, potato, jute, wheat, maize, tomato, beans, lemon, mustard, and tobacco), sourced from DAE, BARI, and BRRI, several in Bangla.
 
 Given the manageable document volume — well under what would justify a full vector-database RAG pipeline — the team used a simpler, equally sound approach for this scale: each farmer question is matched to the relevant crop's document set via keyword detection, and the matched document text is passed directly into the model's context window alongside the question, with explicit instructions to answer *only* from that material.
 
@@ -217,7 +205,7 @@ The end-to-end application was verified to function correctly across all four mo
 ### 1. Clone
 
 ```bash
-git clone https://github.com/<your-org>/krishikotha.git
+git clone https://github.com/DipannitaOrni/krishikotha.git
 cd krishikotha
 ```
 
