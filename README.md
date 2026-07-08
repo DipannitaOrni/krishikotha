@@ -1,3 +1,5 @@
+@"
+
 \---
 
 title: KrishiKotha
@@ -29,4 +31,6 @@ spoken crop advice in Bangla — by voice, text, or photo.
 
 
 Built for SciBlitz AI Challenge 2026, IEEE Student Branch, CUET.
+
+"@ | Set-Content -Path README.md -Encoding utf8NoBOM
 
