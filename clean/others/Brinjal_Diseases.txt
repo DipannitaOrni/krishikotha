@@ -1,0 +1,157 @@
+CROP: Brinjal
+DISEASE NAME: Bacterial Wilt
+DISEASE GROUP: Bacterial
+CAUSAL ORGANISM: Ralstonia solanacearum (formerly Pseudomonas solanacearum)
+SYMPTOMS: Usually appears around 30-45 days after transplanting. Initial
+symptom is drooping of petioles of older leaves followed by rapid wilting
+of young leaves and shoots, often with little or no prior yellowing. Under
+humid conditions, water-soaked patches appear on the lower stem. Cross
+section of infected stem/root shows browning of vascular tissue, and a
+milky-white bacterial ooze exudes from cut vascular bundles when dipped in
+water (streaming test). Whole plant collapses and dies within a few days
+once wilting sets in; disease is often most severe in the vegetative to
+early fruiting stage.
+FAVOURABLE CONDITIONS: Warm, humid weather with optimum soil temperature
+around 28°C and high atmospheric temperature (30-40°C); high soil moisture;
+poorly drained, low-lying or charland soils; continuous brinjal/solanaceous
+cropping in the same field.
+DISEASE CYCLE: Soil-borne bacterium that survives for long periods in soil,
+irrigation water, and infected plant debris; also spreads through
+contaminated tools, transplanting operations, and surface/flood water. Enters
+the plant mainly through wounds in roots caused by transplanting, cultivation,
+nematodes, or insects, and through natural cracks where lateral roots emerge.
+Once inside, the bacterium colonises the xylem vessels, multiplies rapidly and
+blocks water movement, then breaks into surrounding tissue causing further
+vascular breakdown. Also affects other solanaceous crops (tomato, potato,
+chilli), which can serve as alternate sources of infection.
+MANAGEMENT:
+- Use resistant/tolerant brinjal varieties/rootstocks where available; grafting
+  onto resistant wild Solanum rootstock has shown good results.
+- Practise crop rotation (2-3 years) with non-solanaceous crops such as rice.
+- Improve field drainage; avoid waterlogging and excess irrigation.
+- Solarize or fumigate nursery/seedbed soil before raising seedlings.
+- Remove and destroy wilted plants and crop debris promptly; disinfect tools
+  between fields.
+- Apply bio-control agents such as Bacillus and Trichoderma-based soil
+  drenches/consortia, which have shown wilt suppression in Bangladeshi trials.
+- Seed/seedling treatment and soil drenching with copper-based bactericides or
+  streptomycin sulphate can supplement cultural control, though options remain
+  limited once wilting has started.
+
+--------------------------------------------------------------------------------
+CROP: Brinjal
+DISEASE NAME: Yellow Mosaic Disease (Whitefly-Transmitted Viral Disease)
+DISEASE GROUP: Viral
+CAUSAL ORGANISM: Begomovirus transmitted by whitefly, Bemisia tabaci
+SYMPTOMS: Vein clearing and yellowing of veins/veinlets on younger leaves,
+progressing to interveinal yellow-green mosaic mottling across the leaf
+lamina. In severe infection, young leaves show near-complete chlorosis and
+distortion or puckering; plants show stunted growth with reduced leaf size.
+Infected plants set fewer flowers and fruits, and fruits that do form may be
+smaller, deformed, hardened and off-colour, reducing market value. Seedling
+and early-vegetative stage infections are most damaging and have been
+reported to affect a very high proportion of plants in recent Bangladeshi
+outbreaks.
+FAVOURABLE CONDITIONS: Warm temperatures and high humidity that favour buildup
+of the whitefly vector population; dense whitefly presence in and around the
+field, especially during summer months; presence of alternate weed/crop hosts
+near the field.
+DISEASE CYCLE: The virus is not seed-borne; it persists in infected plants and
+in whitefly vector populations, and is transmitted in a persistent manner as
+whiteflies feed on infected plants and then move to healthy ones. Alternate
+solanaceous and non-solanaceous weed hosts around the field act as a
+year-round virus reservoir, allowing the vector to pick up and spread
+infection between cropping seasons.
+MANAGEMENT:
+- No cure once a plant is infected; management is entirely preventive and
+  vector-focused.
+- Rogue out and destroy infected plants as soon as symptoms appear, to reduce
+  the source of infection for whiteflies.
+- Remove alternate weed hosts in and around the field.
+- Install yellow sticky traps to monitor and reduce whitefly populations.
+- Use border/trap crops such as maize and intercrop with marigold to reduce
+  whitefly movement into the main crop.
+- Apply neem-based products or recommended systemic insecticides (e.g.
+  imidacloprid seed/soil treatment) to suppress whitefly populations,
+  especially at the seedling stage.
+- Use resistant/tolerant varieties where available and raise seedlings under
+  insect-proof net in the nursery.
+
+--------------------------------------------------------------------------------
+CROP: Brinjal
+DISEASE NAME: Phomopsis Blight and Fruit Rot
+DISEASE GROUP: Fungal
+CAUSAL ORGANISM: Phomopsis vexans
+SYMPTOMS: Can affect the crop at every growth stage. In the nursery, causes
+damping-off of seedlings. On leaves, produces small circular spots that
+enlarge and turn grey to brown with irregular darker margins; spots coalesce
+causing blighting and premature leaf fall. Lesions on the petiole or midrib
+cause abnormal leaf drop. On stems, causes lodging, internal discoloration,
+cankers, girdling and stem breakage. On fruit, the most damaging phase:
+minute, sunken, dull dusky spots that enlarge and merge into larger rotten
+areas; affected flesh rots, fruit may shrivel/mummify and drop prematurely,
+making it unmarketable.
+FAVOURABLE CONDITIONS: Hot, humid weather with temperatures around 27-35°C
+favouring leaf infection; fruit lesions develop most readily near 30°C with
+around 50% relative humidity; infection can establish within 6-12 hours of
+leaf wetness under favourable conditions.
+DISEASE CYCLE: Fungus survives in infected crop debris in soil and is also
+seed-borne/seed-transmitted, making certified disease-free seed important.
+Spores spread primarily by wind and rain splash from debris and infected
+plant parts onto healthy foliage and fruit.
+MANAGEMENT:
+- Use certified, disease-free seed or collect seed only from healthy plants.
+- Treat seed with Thiram at about 2 g/kg before sowing.
+- Remove and destroy infected crop debris and fallen fruit after harvest.
+- Ensure wide plant spacing and good field sanitation to promote rapid drying
+  of foliage and reduce humidity around plants.
+- Practise crop rotation with non-solanaceous crops.
+- Spray recommended fungicides such as Mancozeb, Copper oxychloride, or
+  Carbendazim + Mancozeb combinations at disease onset, repeating at 10-15
+  day intervals as needed.
+- Grow moderately resistant/tolerant varieties where available.
+
+--------------------------------------------------------------------------------
+CROP: Brinjal
+DISEASE NAME: Brinjal Shoot and Fruit Borer (BFSB)
+DISEASE GROUP: Insect Pest (Lepidoptera)
+CAUSAL ORGANISM: Leucinodes orbonalis (eggplant fruit and shoot borer)
+SYMPTOMS: Young larvae bore into tender shoots and the midrib/petiole of
+leaves soon after hatching, causing wilting and drying ("dead heart") of the
+attacked shoot tip. As the crop starts flowering and fruiting, larvae bore
+into flower buds (causing flower drop) and then into developing fruits,
+feeding internally and plugging the entry hole with excreta. Infested fruits
+show visible boreholes, larval frass, and internal tunnelling; the pink,
+brown-headed larva may be found inside. Damage renders fruits unmarketable
+and unfit for consumption; infestation levels can exceed 90% of the crop
+under heavy pressure, with yield losses reported up to about 86% in
+Bangladesh.
+FAVOURABLE CONDITIONS: Warm, humid tropical/subtropical conditions typical of
+the main brinjal growing seasons; continuous brinjal cultivation without a
+break, allowing multiple overlapping generations (up to five per year); dense
+crop canopy that shelters larvae and pupae.
+DISEASE CYCLE: Adult moths lay creamy-white eggs singly (or occasionally in
+small groups) on the underside of leaves, on stems, flower buds, or at the
+base of fruits. Eggs hatch in about 3-5 days; young larvae bore directly into
+shoots or fruits and feed internally, completing larval development inside
+the plant tissue. Mature pink larvae leave the fruit/shoot to pupate in a
+tough grey cocoon on stems, dried shoots, or fallen leaves; the pupal stage
+lasts about 6-8 days. Adults live only 2-5 days but the full life cycle
+(21-43 days depending on weather) allows several overlapping generations
+per season; larvae overwinter/oversummer in soil or crop residue between
+crops.
+MANAGEMENT:
+- Regularly clip and destroy wilted shoot tips and infested/fallen fruits to
+  remove larvae before they complete development.
+- Install pheromone traps to monitor and mass-trap adult moths.
+- Use maize as a border/barrier crop and intercrop with non-host crops
+  (cowpea, coriander, black gram, green gram) to reduce moth movement into
+  the field.
+- Release/apply biological control agents such as Trichogramma egg
+  parasitoids, Bacillus thuringiensis (Bt) formulations, Beauveria bassiana,
+  or entomopathogenic nematodes.
+- Grow Bt brinjal varieties (expressing Cry1Ac protein), which have
+  substantially reduced borer infestation and insecticide use in Bangladesh.
+- Where chemical control is needed, use recommended insecticides (e.g.
+  spinosad, flubendiamide) in rotation to delay resistance, applied based on
+  monitoring rather than a fixed calendar.
