@@ -1,3 +1,11 @@
 venv/
 __pycache__/
 *.pyc
+.env
+huggingface_cache/
+temp_fixed.wav
+temp_input.wav
+temp_photo.*
+response*.mp3
+output.mp3
+roundtrip_output.mp3

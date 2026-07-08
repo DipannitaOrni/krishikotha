@@ -1,0 +1,109 @@
+COMMON WHEAT (GOM) DISEASES IN BANGLADESH
+Farmer's Guide: Symptoms, Prevention & Control
+
+====================================================
+1. WHEAT BLAST (Gomer Blast Rog)
+====================================================
+Causal organism: Fungus (Magnaporthe oryzae Triticum pathotype)
+
+SYMPTOMS
+- Wheat spike (head) turns white at the point of infection, spreading quickly in warm, humid weather
+- Blackish-grey spots appear where the spike is infected; upper part turns white
+- If infection starts at the base of the spike, the whole spike dries and turns white
+- Grains become shriveled, discolored, and unfit for use
+- On leaves: small, water-soaked, eye-shaped grey spots
+- Most damaging around heading to flowering stage
+
+HOW IT SPREADS
+- Spreads through infected seed
+- Favored by 12-24 hours of leaf/spike wetness plus temperatures of 18-25°C
+- Survives on grassy weeds between seasons
+
+PREVENTION & CONTROL
+- Use certified, disease-free seed
+- Grow blast-tolerant varieties (BARI Gom 28, 30, 32) or resistant variety (BARI Gom 33)
+- Sow between November 15-30 to avoid rain/high heat during heading
+- Treat seed before sowing with Provax 200 WP or Vitavax 200 FF (3 g or 3 ml per kg seed)
+- Keep fields and bunds weed-free
+- Spray fungicide (Nativo 75 WG or Amistar Top 325 SC) once at heading and again 12-15 days later
+- Wear gloves and a mask when spraying
+
+====================================================
+2. LEAF SPOT / SPOT BLOTCH (Pata Dhosa Rog)
+====================================================
+Causal organism: Bipolaris sorokiniana (fungus)
+
+SYMPTOMS
+- Small, elongated to oval, brown to blackish spots scattered on leaves
+- As spots mature, centers turn light brown/tan with a dark brown margin
+- Large, well-developed spots produce heavy spore growth and can cover most of the leaf
+- Severely affected leaves dry up completely (blighted)
+- Infection on stem and nodes can cause the plant to lodge (fall over)
+- Ear/spikelets can also be infected under favorable conditions; grains become discolored, shriveled
+
+PREVENTION & CONTROL
+- Use disease-free, certified seed; treat seed with fungicide before sowing
+- Practice crop rotation with non-cereal crops
+- Avoid excess nitrogen; ensure balanced fertilization
+- Remove and destroy infected crop debris after harvest
+- Spray a recommended fungicide (e.g., Tebuconazole or Propiconazole based) if disease appears early, especially in humid weather
+- Grow tolerant varieties where available
+
+====================================================
+3. STEM RUST / BLACK RUST (Kando Marchha Rog)
+====================================================
+Causal organism: Puccinia graminis f. sp. tritici (fungus)
+
+SYMPTOMS
+- Appears later in crop growth, usually after heading
+- Elongated, reddish-brown (rust-colored) pustules erupt on stem, leaf sheath, and leaves
+- Pustules burst, releasing powdery brown spores that spread to reinfect the crop
+- As the plant matures, pustules turn dark brown to black (hence "black rust")
+- Torn, tattered appearance of leaf/stem tissue where pustules erupt
+- Can cause significant yield loss if infection starts early and weather stays warm and humid
+
+HOW IT SPREADS
+- Spores are carried long distances by wind
+- Favored by warm daytime temperatures (25-30°C), wet weather, and prolonged dew
+- Needs living plant tissue to survive; volunteer wheat/barley plants after harvest can carry it over
+
+PREVENTION & CONTROL
+- Grow rust-resistant wheat varieties
+- Sow early (within recommended window) to avoid infection during grain-filling
+- Destroy volunteer wheat/barley plants after harvest
+- Monitor fields regularly after heading, especially in warm, humid weather
+- Apply a recommended fungicide preventatively if rust is forecasted or first pustules are seen, targeting the flag leaf stage
+- Avoid excess nitrogen fertilizer, which promotes lush, susceptible growth
+
+====================================================
+4. POWDERY MILDEW (Gura Sada Rog)
+====================================================
+Causal organism: Blumeria (Erysiphe) graminis f. sp. tritici (fungus)
+
+SYMPTOMS
+- Small yellow spots appear on leaves 5-7 days after infection
+- White, fluffy/powdery fungal growth develops on these spots (leaves, stem, sometimes head)
+- Infected leaves yellow and die early
+- Later, small black specks (fungal fruiting bodies) appear on old infected tissue near plant base
+- Most common in lush, early-sown, nitrogen-rich crops during tillering stage
+- Usually does not persist much beyond ear emergence
+
+PREVENTION & CONTROL
+- Avoid highly susceptible varieties; choose tolerant ones
+- Use recommended seed rate (about 100 kg/ha) — avoid overly thick/lush stands
+- Avoid excess nitrogen; apply potassium fertilizer as recommended instead
+- Remove volunteer wheat plants and crop debris from the field after harvest
+- Maintain regular, balanced irrigation (avoid excess moisture and humidity buildup)
+- Apply a sulfur-based or triazole fungicide if infection is severe early in the season
+
+====================================================
+GENERAL TIPS FOR ALL WHEAT DISEASES
+====================================================
+- Always start with healthy, certified seed and treat seed before sowing
+- Follow recommended sowing time and seed rate for your area
+- Avoid excess nitrogen fertilizer; balance with phosphorus and potassium
+- Keep fields and field bunds free of weeds and volunteer plants
+- Rotate crops where possible instead of continuous wheat
+- Scout fields regularly, especially during humid or rainy weather
+- When spraying fungicide, always wear gloves and a mask, and follow label instructions
+- Contact your nearest agricultural extension office or BARI Wheat Research Centre for the latest recommended varieties and chemicals

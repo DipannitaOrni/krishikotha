@@ -1,0 +1,130 @@
+COMMON MAIZE (VUTTA) DISEASES & PESTS IN BANGLADESH
+Farmer's Guide: Symptoms, Prevention & Control
+
+====================================================
+1. FALL ARMYWORM (FAW) - Spodoptera frugiperda
+====================================================
+Type: Insect pest (not a disease)
+
+SYMPTOMS
+- Semi-transparent "window pane" patches on leaves (early larval stage, seedling to early growth)
+- Holes in leaves and in the central whorl ("Infested Whorl")
+- Larval droppings (frass) accumulate in the whorl
+- Damaged, hollowed-out, or destroyed cobs with frass inside, from silking onward
+- Large larvae can defoliate a whole plant in a single night
+
+PREVENTION & CONTROL
+- Plant early with the first rains; avoid staggered planting dates
+- Use balanced fertilizer for healthy, vigorous plants
+- Keep field borders free of weedy grasses
+- Scout fields weekly from seedling emergence; check 10-20 plants at 5 spots per field
+- Action point: spray if more than 20% of plants damaged at knee-high stage, or more than 40% of whorls damaged at shoulder-high stage; do not spray at tasseling/silking
+- Hand-pick and destroy egg masses and larvae
+- Use pheromone traps (35-40/ha) for monitoring and mass trapping
+- Apply SNPV biopesticide (0.2 g/L water) every 10 days, 2-3 times
+- Release natural enemies such as Bracon hebetor wasps where available
+- Avoid broad-spectrum insecticides that kill natural enemies
+
+====================================================
+2. TURCICUM LEAF BLIGHT / NORTHERN CORN LEAF BLIGHT
+====================================================
+Causal organism: Exserohilum turcicum (fungus)
+
+SYMPTOMS
+- Long, elliptical (cigar-shaped), greyish-green to tan lesions on leaves
+- Lesions run parallel to leaf veins and can merge, causing large areas of leaf to die (blight)
+- Severe infection can destroy most of the leaf area, reducing grain fill
+- Common in humid weather with moderate temperatures
+
+PREVENTION & CONTROL
+- Grow resistant/tolerant maize varieties
+- Rotate maize with non-host crops (e.g., legumes)
+- Remove and destroy infected crop debris after harvest
+- Avoid overly dense planting; ensure good air circulation
+- Apply a recommended fungicide (e.g., Mancozeb or Propiconazole-based) if disease appears early and weather stays humid
+
+====================================================
+3. COMMON RUST OF MAIZE
+====================================================
+Causal organism: Puccinia sorghi (fungus)
+
+SYMPTOMS
+- Small, round to elongated, reddish-brown pustules scattered on both leaf surfaces
+- Pustules rupture and release powdery rust-colored spores
+- In severe cases, leaves turn yellow and dry prematurely
+- More common in cooler, humid weather
+
+PREVENTION & CONTROL
+- Use rust-tolerant varieties where available
+- Avoid very early or very late planting that exposes crop to prolonged cool, humid weather
+- Remove volunteer maize plants and crop debris after harvest
+- Apply fungicide if rust appears early and is spreading rapidly, especially on susceptible varieties
+
+====================================================
+4. DOWNY MILDEW OF MAIZE
+====================================================
+Causal organism: Peronosclerospora species (fungus-like organism)
+
+SYMPTOMS
+- Young plants show pale green to yellow (chlorotic) streaking on leaves, running parallel to veins
+- Leaves may appear stunted, narrow, and twisted
+- White to greyish, downy fungal growth can appear on the underside of leaves in humid/wet conditions, especially in early morning
+- Severely infected plants are stunted and often fail to produce normal cobs
+
+PREVENTION & CONTROL
+- Use certified, disease-free seed; treat seed with a recommended fungicide (e.g., metalaxyl-based) before sowing
+- Avoid planting in low-lying, waterlogged fields
+- Remove and destroy infected plants early (roguing) to reduce spread
+- Practice crop rotation with non-cereal crops
+- Ensure good field drainage
+
+====================================================
+5. BANDED LEAF AND SHEATH BLIGHT (BLSB)
+====================================================
+Causal organism: Rhizoctonia solani f. sp. sasakii (fungus)
+
+SYMPTOMS
+- Irregular, greyish-green, water-soaked bands/patches on leaf sheaths, starting near the base of the plant
+- Bands spread upward to leaves and can reach the cob under humid conditions
+- Infected sheaths and leaves rot and turn straw-colored
+- Cobs may also be infected, showing rotting and poor grain fill
+- Common in dense plantings with high humidity
+
+PREVENTION & CONTROL
+- Avoid excessive plant density; ensure proper spacing for airflow
+- Avoid waterlogging; ensure good field drainage
+- Remove and destroy infected crop residues after harvest
+- Rotate with non-host crops
+- Apply a recommended fungicide at the base of plants if disease appears early in humid seasons
+
+====================================================
+6. STALK ROT (Fusarium / Bacterial Stalk Rot)
+====================================================
+Causal organism: Fusarium species (fungus) or bacteria, often following stress/damage
+
+SYMPTOMS
+- Lower stalk becomes soft, discolored (brown to black), and shows a rotten smell (in bacterial stalk rot)
+- Pith inside the stalk disintegrates, leaving the stalk hollow and weak
+- Plants wilt suddenly, and stalks can easily break or lodge (fall over)
+- Premature plant death, often near maturity
+
+PREVENTION & CONTROL
+- Avoid excess nitrogen and imbalanced fertilization
+- Ensure adequate potassium fertilization, which strengthens stalks
+- Avoid water stress and waterlogging; maintain balanced irrigation
+- Control stem-boring insects, since wounds allow the pathogen to enter
+- Harvest promptly once mature to avoid stalk rot–related lodging losses
+- Practice crop rotation and residue destruction after harvest
+
+====================================================
+GENERAL TIPS FOR ALL MAIZE DISEASES & PESTS
+====================================================
+- Start with healthy, certified seed; treat seed before sowing when recommended
+- Follow proper spacing and recommended seeding rate to reduce humidity buildup within the canopy
+- Balance fertilizer application; avoid excess nitrogen, ensure adequate potassium
+- Keep fields and field bunds free of weeds and volunteer plants
+- Rotate maize with non-cereal crops such as legumes where possible
+- Scout fields weekly, especially during humid or rainy weather and around key growth stages
+- Remove and destroy infected crop debris after harvest to reduce carryover of disease
+- When applying any pesticide or fungicide, wear gloves and a mask, and follow label instructions
+- Contact your nearest Department of Agricultural Extension (DAE) office or the Bangladesh Wheat and Maize Research Institute for the latest recommended varieties and chemicals

@@ -1,0 +1,134 @@
+COMMON TOBACCO (TAMAK) DISEASES IN BANGLADESH
+Farmer's Guide: Symptoms, Prevention & Control
+
+====================================================
+1. BLACK SHANK
+====================================================
+Causal organism: Phytophthora nicotianae (fungus-like organism)
+
+SYMPTOMS
+- Black, water-soaked lesions appear at the base of the stem (shank), near soil level
+- Infected stem tissue turns black and the pith inside becomes hollow with a diagnostic black, banded discoloration
+- Plants wilt suddenly, often starting with the lower leaves, and can collapse and die
+- In wet fields, entire patches of plants can die within days
+- Roots may also rot, appearing black and mushy
+
+PREVENTION & CONTROL
+- Use resistant/tolerant tobacco varieties where available
+- Ensure good field drainage; avoid waterlogging, since the pathogen spreads in standing water
+- Rotate with non-host crops (avoid other Solanaceae like tomato, eggplant, chili) for at least 2-3 years
+- Remove and destroy infected plants and debris immediately
+- Avoid moving soil or water from infected fields to healthy ones (sanitize tools and boots)
+- Apply a recommended fungicide (e.g., metalaxyl or mefenoxam-based) as a soil drench in severely affected fields
+
+====================================================
+2. FUSARIUM WILT
+====================================================
+Causal organism: Fusarium oxysporum f. sp. nicotianae (fungus)
+
+SYMPTOMS
+- Yellowing and wilting of leaves, often starting on one side of the plant
+- Leaves droop and may show a one-sided (unilateral) yellowing pattern
+- Brown streaking visible inside the stem when cut lengthwise
+- Stunted growth and eventual plant death, especially in warm soil conditions
+- Symptoms often worsen during hot, dry weather
+
+PREVENTION & CONTROL
+- Use resistant varieties where available
+- Practice long crop rotation (3-4 years) with non-host crops
+- Avoid excessive nitrogen fertilization
+- Remove and destroy infected plants promptly
+- Maintain balanced soil moisture; avoid drought stress, which worsens symptoms
+- Improve soil health with organic matter to support beneficial soil microbes
+
+====================================================
+3. TOBACCO MOSAIC VIRUS (TMV)
+====================================================
+Causal organism: Tobacco mosaic virus
+
+SYMPTOMS
+- Light green to yellow mottled (mosaic) pattern on leaves
+- Leaves may appear puckered, curled, or distorted with uneven surfaces
+- Stunted plant growth and reduced leaf size
+- Reduced leaf quality, which lowers market value
+- Virus spreads easily through handling (hands, tools, contaminated tobacco products) and can survive in dried plant material
+
+PREVENTION & CONTROL
+- Use certified virus-free seed and healthy transplants
+- Wash hands and disinfect tools between handling plants, especially after smoking or handling tobacco products
+- Avoid working in fields when leaves are wet, as this increases spread
+- Remove and destroy infected plants promptly
+- Control weeds that may harbor the virus
+- Avoid planting near old tobacco debris or previously infected fields
+
+====================================================
+4. FROGEYE LEAF SPOT
+====================================================
+Causal organism: Cercospora nicotianae (fungus)
+
+SYMPTOMS
+- Small, circular spots on leaves with a light tan to white center and a dark brown margin (resembling a frog's eye)
+- Spots may merge under humid conditions, damaging large areas of the leaf
+- Lower, older leaves are usually affected first
+- Severe infection reduces leaf quality and market value
+
+PREVENTION & CONTROL
+- Use resistant varieties where available
+- Avoid excess nitrogen fertilization
+- Ensure proper plant spacing for good air circulation
+- Remove and destroy infected lower leaves and crop debris after harvest
+- Apply a recommended fungicide (e.g., copper-based or chlorothalonil) if disease appears early in humid weather
+- Practice crop rotation with non-host crops
+
+====================================================
+5. BLUE MOLD
+====================================================
+Causal organism: Peronospora tabacina (fungus-like organism, downy mildew type)
+
+SYMPTOMS
+- Pale yellow to light green patches on the upper leaf surface
+- A blue-grey, fuzzy/downy fungal growth appears on the underside of the leaves, especially in cool, humid, cloudy weather
+- Affected leaf tissue eventually turns brown and dies
+- In seedbeds/nurseries, young seedlings can be severely damaged or killed
+- Spreads rapidly by wind-blown spores during cool, wet conditions
+
+PREVENTION & CONTROL
+- Use resistant varieties where available
+- Avoid overcrowding seedlings in nurseries; ensure good ventilation
+- Avoid overhead irrigation, especially late in the day; water early so leaves dry quickly
+- Apply a recommended fungicide (e.g., metalaxyl or mancozeb-based) preventatively in nurseries and fields during high-risk (cool, cloudy, humid) weather
+- Remove and destroy infected plants and debris promptly
+- Monitor fields closely during cool, overcast weather
+
+====================================================
+6. BACTERIAL WILT
+====================================================
+Causal organism: Ralstonia solanacearum (bacterium)
+
+SYMPTOMS
+- Sudden wilting of the whole plant, often starting with upper leaves, while leaves remain green initially
+- Cutting the stem near the base reveals brown, discolored vascular tissue; a milky bacterial ooze may appear from the cut stem
+- Plants collapse and die quickly, especially in warm, wet soil
+- Disease spreads through soil, water, and infected plant material
+
+PREVENTION & CONTROL
+- Use resistant varieties where available
+- Practice crop rotation with non-host crops (avoid Solanaceae) for several years
+- Ensure good field drainage; avoid waterlogging
+- Remove and destroy infected plants and surrounding soil where possible
+- Disinfect tools and avoid moving soil/water from infected to healthy fields
+- Avoid mechanical injury to roots and stems during cultivation
+
+====================================================
+GENERAL TIPS FOR ALL TOBACCO DISEASES
+====================================================
+- Start with healthy, certified seed and disease-free transplants
+- Practice crop rotation (3+ years) with non-Solanaceae crops
+- Ensure good field drainage; avoid waterlogged conditions
+- Avoid excess nitrogen fertilizer; maintain balanced fertilization
+- Keep fields and field bunds free of weeds and volunteer plants
+- Remove and destroy infected plants and crop debris promptly (do not compost infected material)
+- Wash hands and disinfect tools regularly, especially when moving between fields
+- Scout fields regularly, especially during humid, wet, or cool cloudy weather
+- When applying any pesticide or fungicide, wear gloves and a mask, and follow label instructions
+- Contact your nearest Department of Agricultural Extension (DAE) office or Bangladesh Agricultural Research Institute (BARI) for the latest recommended varieties and chemicals
